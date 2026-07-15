@@ -1,16 +1,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta property="og:title" content="ProNutraQuest Affiliate Hub — The DACH Advantage for Performance Affiliates">
-<meta property="og:description" content="110M affluent German speakers, 40–60% cheaper CPMs, a fraction of the competition. 9 doctor-fronted offers, 60–70% RevShare, live link generator.">
+<meta property="og:description" content="110M affluent German speakers, 40–60% cheaper CPMs, a fraction of the competition. 9 doctor-fronted offers, 60–75% RevShare, live link generator.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://hartmut1309.github.io/pronutraquest-affiliate-hub/v3/">
 <meta name="twitter:card" content="summary">
 <meta name="description" content="The DACH market advantage for supplement affiliates: 9 doctor-fronted Digistore24 offers, KPIs, EPCs and a live affiliate-link generator.">
 <title>ProNutraQuest Affiliate Hub</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
 <style>
+  @font-face{font-family:"Bricolage Grotesque";font-style:normal;font-weight:200 800;src:url(fonts/bricolage-grotesque-latin.woff2) format("woff2");font-display:swap}
+  @font-face{font-family:Manrope;font-style:normal;font-weight:200 800;src:url(fonts/manrope-latin.woff2) format("woff2");font-display:swap}
   :root{
     --bg:#F4F6FA; --bg2:#EAEEF6; --card:#FFFFFF; --card2:#F8FAFD;
     --line:#D3DCEA; --line2:#BFCCDF;
@@ -80,7 +79,7 @@
   .rail{position:sticky;top:57px;z-index:55;background:color-mix(in srgb,var(--bg) 96%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
   .rail .wrap{display:flex;gap:8px;overflow-x:auto;padding:9px 20px;scrollbar-width:none}
   .rail .wrap::-webkit-scrollbar{display:none}
-  .rpill{flex:0 0 auto;display:inline-flex;align-items:center;gap:7px;border:1.5px solid var(--line2);background:var(--card);border-radius:999px;padding:7px 14px 7px 9px;font-size:14px;font-weight:800;color:var(--mut);white-space:nowrap}
+  .rpill{flex:0 0 auto;display:inline-flex;align-items:center;gap:7px;border:1.5px solid var(--line2);background:color-mix(in srgb,var(--catc,var(--dim)) 9%,var(--card));border-radius:999px;padding:7px 14px 7px 9px;font-size:14px;font-weight:800;color:var(--mut);white-space:nowrap}
   .rpill i{font-style:normal;font-family:var(--mono);font-size:13px;font-weight:700;width:22px;height:22px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;background:var(--bg2);color:var(--catc,var(--dim))}
   .rpill:hover{text-decoration:none;border-color:var(--catc,var(--acc))}
   .rpill.active{border-color:var(--catc,var(--acc));color:var(--ink);box-shadow:inset 0 0 0 1px var(--catc,var(--acc))}
@@ -125,7 +124,7 @@
   .filters{display:flex;gap:8px;flex-wrap:wrap;margin:34px 0 10px;align-items:center}
   .chip{cursor:pointer;border:1.5px solid var(--line2);background:var(--card);color:var(--mut);border-radius:999px;padding:9px 17px;font-size:15px;font-weight:700;display:inline-flex;align-items:center;gap:8px}
   .chip .dot{width:9px;height:9px;border-radius:50%;background:var(--catc,var(--dim))}
-  .chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+  .chip[aria-pressed="true"]{background:var(--catc,var(--ink));border-color:var(--catc,var(--ink));color:#fff}
   .chip:focus-visible{outline:2.5px solid var(--acc);outline-offset:2px}
   .count{font-size:14px;color:var(--dim);margin-left:auto;font-weight:600}
   .langline{font-size:16px;color:var(--mut);margin:0 0 22px;max-width:82ch}
@@ -133,9 +132,9 @@
 
   /* offer cards */
   .cards{display:flex;flex-direction:column;gap:24px;padding-bottom:8px}
-  .card{border:1px solid var(--line);border-radius:16px;background:linear-gradient(180deg,var(--card) 0%,var(--card2) 100%);overflow:hidden;box-shadow:0 1px 3px rgba(10,18,32,.05);scroll-margin-top:130px;position:relative;transition:transform .18s ease,box-shadow .18s ease}
+  .card{border:1px solid var(--line);border-radius:16px;background:linear-gradient(180deg,color-mix(in srgb,var(--catc,var(--gold)) 8%,var(--card)) 0%,var(--card) 46%,var(--card2) 100%);overflow:hidden;box-shadow:0 1px 3px rgba(10,18,32,.05);scroll-margin-top:130px;position:relative;transition:transform .18s ease,box-shadow .18s ease}
   .card:hover{transform:translateY(-3px);box-shadow:0 14px 34px -18px rgba(10,18,32,.35)}
-  .card::before{content:"";position:absolute;top:0;left:0;right:0;height:5px;background:var(--catc,var(--gold))}
+  .card::before{content:"";position:absolute;top:0;left:0;right:0;height:9px;background:var(--catc,var(--gold))}
   .card.flagship{border-color:color-mix(in srgb,var(--gold) 55%,var(--line))}
   .card header{display:flex;gap:18px;padding:26px 26px 16px;align-items:flex-start;flex-wrap:wrap}
   .rank{font-family:var(--disp);font-size:46px;font-weight:800;color:var(--catc,var(--gold));min-width:48px;line-height:1;padding-top:2px}
@@ -147,6 +146,8 @@
   .badge{font-size:11.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;border-radius:6px;padding:6px 10px;background:var(--gold-dim);color:var(--gold);border:1px solid color-mix(in srgb,var(--gold) 40%,transparent);white-space:nowrap;margin-top:4px}
   .badge.green{background:var(--acc-dim);color:var(--acc);border-color:color-mix(in srgb,var(--acc) 40%,transparent)}
   .badge.plain{background:transparent;color:var(--dim);border-color:var(--line2)}
+  .bottle{height:108px;width:auto;object-fit:contain;align-self:center;filter:drop-shadow(0 6px 12px rgba(10,18,32,.18))}
+  @media(max-width:640px){.bottle{height:76px}}
   .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(128px,1fr));gap:1px;background:var(--line);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
   .kpi{background:var(--card2);padding:14px 16px 12px}
   .kpi b{display:block;font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:22px;color:var(--acc)}
@@ -332,12 +333,12 @@
     <div class="flagpill">● <b>9 offers live</b>&nbsp;· <svg class="flag sm"><use href="#f-de"/></svg> <svg class="flag sm"><use href="#f-at"/></svg> <svg class="flag sm"><use href="#f-ch"/></svg>&nbsp;German-speaking Europe · updated 15 July 2026</div>
     <div class="eyebrow">ProNutraQuest × Digistore24 · Partner Program</div>
     <h1>Your Current Angles Are Saturated. The DACH Version of Them Hasn't Run Yet.</h1>
-    <p class="lede"><strong>110 million affluent German speakers</strong> — one-third the US market — at <strong>40–60% cheaper CPMs</strong>, with a fraction of the competition. Nine doctor-fronted supplement funnels, <strong>60–70% RevShare</strong> through the whole funnel, top EPC <strong>~$6.10</strong>. Buyers who spend more, refund less, and have <strong>never seen your angle</strong>.</p>
+    <p class="lede"><strong>110 million affluent German speakers</strong> — one-third the US market — at <strong>40–60% cheaper CPMs</strong>, with a fraction of the competition. Nine doctor-fronted supplement funnels, <strong>60–75% RevShare</strong> through the whole funnel, top EPC <strong>~$6.10</strong>. Buyers who spend more, refund less, and have <strong>never seen your angle</strong>.</p>
     <p class="quoteline">"<b>It's the US market in 2019.</b>" — enter your Digistore24 ID once, every link on this page becomes yours.</p>
     <div class="statstrip" role="list">
       <div class="stat" role="listitem"><b>110M</b><span>German-speaking buyers</span></div>
       <div class="stat" role="listitem"><b>40–60%</b><span>Cheaper CPMs vs US</span></div>
-      <div class="stat" role="listitem"><b>60–70%</b><span>RevShare, whole funnel</span></div>
+      <div class="stat" role="listitem"><b>60–75%</b><span>RevShare, whole funnel</span></div>
       <div class="stat" role="listitem"><b>€120–150</b><span>CPA · currently $137–171</span></div>
       <div class="stat" role="listitem"><b>$6.10</b><span>Top offer EPC (KetoSana)</span></div>
     </div>
@@ -367,7 +368,7 @@
           <tr><td>5</td><td><span class="idot" style="background:var(--c-blood)"></span>GlucoSana</td><td class="hidem">Blood Sugar</td><td class="r">ask</td><td><a href="#offer-5">Jump →</a></td></tr>
           <tr><td>6</td><td><span class="idot" style="background:var(--c-nerve)"></span>NerveSana</td><td class="hidem">Nerve Health</td><td class="r">ask</td><td><a href="#offer-6">Jump →</a></td></tr>
           <tr><td>7</td><td><span class="idot" style="background:var(--c-men)"></span>VigorSana</td><td class="hidem">Men's Health</td><td class="r">ask</td><td><a href="#offer-7">Jump →</a></td></tr>
-          <tr><td>8</td><td><span class="idot" style="background:var(--c-bundle)"></span>VitaSana Collection</td><td class="hidem">8-Product Ecosystem</td><td class="r">ask</td><td><a href="#offer-8">Jump →</a></td></tr>
+          <tr><td>8</td><td><span class="idot" style="background:var(--c-bundle)"></span>VitaSana Collection</td><td class="hidem">VIP Wellness System</td><td class="r">ask</td><td><a href="#offer-8">Jump →</a></td></tr>
           <tr><td>9</td><td><span class="idot" style="background:var(--c-blood)"></span>GlucoTrust German</td><td class="hidem">Blood Sugar · Flagship</td><td class="r">$2.45</td><td><a href="#offer-9">Jump →</a></td></tr>
         </tbody>
       </table>
@@ -384,7 +385,7 @@
     <button class="chip" aria-pressed="false" data-f="gut" type="button" style="--catc:var(--c-gut)"><span class="dot"></span>Detox &amp; Gut</button>
     <button class="chip" aria-pressed="false" data-f="nerve" type="button" style="--catc:var(--c-nerve)"><span class="dot"></span>Nerve Health</button>
     <button class="chip" aria-pressed="false" data-f="men" type="button" style="--catc:var(--c-men)"><span class="dot"></span>Men's Health</button>
-    <button class="chip" aria-pressed="false" data-f="bundle" type="button" style="--catc:var(--c-bundle)"><span class="dot"></span>Ecosystem</button>
+    <button class="chip" aria-pressed="false" data-f="bundle" type="button" style="--catc:var(--c-bundle)"><span class="dot"></span>VIP Wellness System</button>
     <span class="count" id="countLabel">Showing 9 of 9</span>
   </div>
   <p class="langline"><b>The funnels are German — you don't need to be.</b> Every page, VSL and checkout below is professionally built in German. Run our swipes and angles translated for you, or point your proven creatives at German-speaking audiences. <em>The language barrier is the moat</em> — it kept your competitors out, not you.</p>
@@ -398,14 +399,15 @@
         <div class="hgroup">
           <div class="eyebrow2"><b>SlimSana</b> · Weight Loss · German-language funnel · DACH + EU</div>
           <h3>Harvard Naturopath's 60-Second "Metabolic Switch" Fix Germans Ignore</h3>
-          <p class="subhead">11-ingredient deep funnel for DACH's most frustrated weight-loss buyers — ~$1.90 EPC, 60–70% RevShare, traffic 40–60% below US rates.</p>
+          <p class="subhead">11-ingredient deep funnel for DACH's most frustrated weight-loss buyers — ~$1.90 EPC, 60–75% RevShare, traffic 40–60% below US rates.</p>
         </div>
+        <img class="bottle" src="img/slimsana.png" alt="SlimSana bottle" loading="lazy" onerror="this.style.display='none'">
         <span class="badge green">Proven Core Offer</span>
       </header>
       <div class="kpis">
         <div class="kpi"><b>$1.90</b><span>EPC (≈ €1.60)</span></div>
         <div class="kpi"><b class="na">— ask support</b><span>AOV</span></div>
-        <div class="kpi"><b>60–70%</b><span>RevShare</span></div>
+        <div class="kpi"><b>60–75%</b><span>RevShare</span></div>
         <div class="kpi"><b>€120–150</b><span>CPA · $137–171</span></div>
         <div class="kpi"><b>35–60+</b><span>Women &amp; Men</span></div>
       </div>
@@ -429,7 +431,7 @@
           <a href="https://drive.google.com/drive/folders/1t81_w0ka4dA6v-fN5r-dVEMcyd68Yek9" target="_blank" rel="noopener">Materials: VSL script, angles, psychographics</a>
         </div>
         <div class="cardfoot">
-          <span class="note">RevShare starts at 60% across the whole funnel — rises to 70% with volume. CPA on request.</span>
+          <span class="note">RevShare starts at 60% across the whole funnel — rises to 75% with volume. CPA on request.</span>
           <button class="btn small copyall" type="button">Copy this offer's links</button>
         </div>
       </div>
@@ -444,12 +446,13 @@
           <h3>Germany's Highest-EPC Keto Offer Runs on a Mechanism Nobody Else Is Selling</h3>
           <p class="subhead">Our single highest-EPC offer at ~$6.10 — premium liquid drops, AOV €177–294, 60-day guarantee, made-in-Germany trust that closes cold DACH traffic.</p>
         </div>
+        <img class="bottle" src="img/ketosana.png" alt="KetoSana bottle" loading="lazy" onerror="this.style.display='none'">
         <span class="badge">🏆 Top EPC · $6.10</span>
       </header>
       <div class="kpis">
         <div class="kpi"><b>$6.10</b><span>EPC (≈ €5.20)</span></div>
         <div class="kpi"><b>€177–294</b><span>AOV</span></div>
-        <div class="kpi"><b>60–70%</b><span>RevShare*</span></div>
+        <div class="kpi"><b>60–75%</b><span>RevShare*</span></div>
         <div class="kpi"><b>€120–150</b><span>CPA · $137–171</span></div>
         <div class="kpi"><b>30–60+</b><span>Women &amp; Men</span></div>
       </div>
@@ -488,12 +491,13 @@
           <h3>Stanford-Backed 3-Phase "Cell Unlock" Makes Clean Eating Finally Work</h3>
           <p class="subhead">Fresh VSL live since April 22 with strong early stats — AOV €177–294 and a research story that converts DACH's science-trusting diet skeptics.</p>
         </div>
+        <img class="bottle" src="img/metabosana.png" alt="MetaboSana bottle" loading="lazy" onerror="this.style.display='none'">
         <span class="badge green">⚡ New VSL · Zero Ad Fatigue</span>
       </header>
       <div class="kpis">
         <div class="kpi"><b class="na">fresh — ask</b><span>EPC · strong early stats</span></div>
         <div class="kpi"><b>€177–294</b><span>AOV</span></div>
-        <div class="kpi"><b>60–70%</b><span>RevShare</span></div>
+        <div class="kpi"><b>60–75%</b><span>RevShare</span></div>
         <div class="kpi"><b>€120–150</b><span>CPA · $137–171</span></div>
         <div class="kpi"><b>30+</b><span>Women &amp; Men</span></div>
       </div>
@@ -532,12 +536,13 @@
           <h3>The 4-Mechanism Gut Reboot That Hit Digistore24's Top Offers in 4 Weeks</h3>
           <p class="subhead">~$2.60 EPC and a top-offer listing in under a month — a fresh "cellular sludge" angle hitting digestion, immunity and fat loss at once.</p>
         </div>
+        <img class="bottle" src="img/cleansesana.png" alt="CleanseSana bottle" loading="lazy" onerror="this.style.display='none'">
         <span class="badge">Top-Offers List in 4 Weeks</span>
       </header>
       <div class="kpis">
         <div class="kpi"><b>$2.60</b><span>EPC (≈ €2.20)</span></div>
         <div class="kpi"><b class="na">— ask support</b><span>AOV</span></div>
-        <div class="kpi"><b>60–70%</b><span>RevShare</span></div>
+        <div class="kpi"><b>60–75%</b><span>RevShare</span></div>
         <div class="kpi"><b>€120–150</b><span>CPA · $137–171</span></div>
         <div class="kpi"><b>30+</b><span>Women &amp; Men</span></div>
       </div>
@@ -574,12 +579,13 @@
           <h3>Harvard-Trained Doctor's 17-Year "Glucose Prison" Protocol — Finally Outside His Clinic</h3>
           <p class="subhead">The successor to our all-time best DACH offer — AOV €177–294, built for high-intent 40+ buyers who've failed mainstream solutions.</p>
         </div>
+        <img class="bottle" src="img/glucosana.png" alt="GlucoSana bottle" loading="lazy" onerror="this.style.display='none'">
         <span class="badge green">GlucoTrust's Successor in DACH</span>
       </header>
       <div class="kpis">
         <div class="kpi"><b class="na">— ask support</b><span>EPC</span></div>
         <div class="kpi"><b>€177–294</b><span>AOV</span></div>
-        <div class="kpi"><b>60–70%</b><span>RevShare</span></div>
+        <div class="kpi"><b>60–75%</b><span>RevShare</span></div>
         <div class="kpi"><b>€120–150</b><span>CPA · $137–171</span></div>
         <div class="kpi"><b>40+</b><span>Women &amp; Men</span></div>
       </div>
@@ -617,12 +623,13 @@
           <h3>The "Ikaria Anomaly" — Why 90-Year-Old Greeks Have Healthier Nerves Than 40-Year-Old Germans</h3>
           <p class="subhead">8.3M German neuropathy sufferers, premium pricing, desperate high-intent buyers — a mechanism angle no competitor is running.</p>
         </div>
+        <img class="bottle" src="img/nervesana.png" alt="NerveSana bottle" loading="lazy" onerror="this.style.display='none'">
         <span class="badge plain">High-Intent Premium Buyers</span>
       </header>
       <div class="kpis">
         <div class="kpi"><b class="na">— ask support</b><span>EPC</span></div>
         <div class="kpi"><b>€177–294</b><span>AOV</span></div>
-        <div class="kpi"><b>60–70%</b><span>RevShare</span></div>
+        <div class="kpi"><b>60–75%</b><span>RevShare</span></div>
         <div class="kpi"><b>€120–150</b><span>CPA · $137–171</span></div>
         <div class="kpi"><b>8.3M</b><span>DE neuropathy sufferers</span></div>
       </div>
@@ -661,12 +668,13 @@
           <h3>The "Bio-Energetic Leak" Quietly Draining Men Over 40 — and the 4-Phase Fix</h3>
           <p class="subhead">A private, doctor-free solution for men too embarrassed to ask — 180-day empty-bottle guarantee removes purchase friction.</p>
         </div>
+        <img class="bottle" src="img/vigorsana.png" alt="VigorSana bottle" loading="lazy" onerror="this.style.display='none'">
         <span class="badge plain">180-Day Empty-Bottle Guarantee</span>
       </header>
       <div class="kpis">
         <div class="kpi"><b class="na">— ask support</b><span>EPC</span></div>
         <div class="kpi"><b>€177–294</b><span>AOV</span></div>
-        <div class="kpi"><b>60–70%</b><span>RevShare</span></div>
+        <div class="kpi"><b>60–75%</b><span>RevShare</span></div>
         <div class="kpi"><b>€120–150</b><span>CPA · $137–171</span></div>
         <div class="kpi"><b>40–65</b><span>Men</span></div>
       </div>
@@ -700,21 +708,22 @@
       <header>
         <div class="rank">8</div>
         <div class="hgroup">
-          <div class="eyebrow2"><b>VitaSana Collection</b> · 8-Product Ecosystem · German-language funnel · DACH + EU</div>
+          <div class="eyebrow2"><b>VitaSana Collection</b> · VIP Wellness System · 8 Products · German-language funnel · DACH + EU</div>
           <h3>The Self-Selecting Funnel That Turns One Sale Into €245+ AOV Automatically</h3>
-          <p class="subhead">Built for email lists — buyers pick their next transformation by their biggest pain point, and you earn 60–70% across the whole ecosystem.</p>
+          <p class="subhead">Built for email lists — buyers pick their next transformation by their biggest pain point, and you earn 60–75% across the whole VIP Wellness System.</p>
         </div>
+        <img class="bottle" src="img/vitasana-collection.png" alt="VitaSana Collection bottle" loading="lazy" onerror="this.style.display='none'">
         <span class="badge">Lifetime-Customer Machine</span>
       </header>
       <div class="kpis">
         <div class="kpi"><b class="na">— ask support</b><span>EPC</span></div>
         <div class="kpi"><b>€245+</b><span>AOV</span></div>
-        <div class="kpi"><b>60–70%</b><span>RevShare, whole ecosystem</span></div>
+        <div class="kpi"><b>60–75%</b><span>RevShare, whole system</span></div>
         <div class="kpi"><b class="na">ask</b><span>CPA · volume players</span></div>
         <div class="kpi"><b>8</b><span>Products, one funnel</span></div>
       </div>
       <div class="body">
-        <p class="pitch">Dr. Wood's complete <strong>"clinic protocol" ecosystem</strong>: SlimSana, MetaboSana, CleanseSana, CurcumaSana, KetoSana, GlucoSana, NerveSana and VigorSana in one self-selecting funnel. <strong>One doctor. Nine offers. Total consistency.</strong> Buyers choose their next transformation based on their own biggest pain point — intelligent cross-sell that feels like personalized medical advice.</p>
+        <p class="pitch">Dr. Wood's complete <strong>"clinic protocol" VIP Wellness System</strong>: SlimSana, MetaboSana, CleanseSana, CurcumaSana, KetoSana, GlucoSana, NerveSana and VigorSana in one self-selecting funnel. <strong>One doctor. Nine offers. Total consistency.</strong> Buyers choose their next transformation based on their own biggest pain point — intelligent cross-sell that feels like personalized medical advice.</p>
         <ul class="hooks">
           <li><b>8</b> products, one commission stream</li>
           <li>One link sells the whole portfolio</li>
@@ -746,13 +755,14 @@
           <h3>Clickbank's All-Time Best Blood-Sugar Offer — Now Unlocked for 110M German Speakers</h3>
           <p class="subhead">The proven flagship, localized for DACH — $2.45 EPC, $231 AOV, 1.82% CVR, five ready funnel formats, swipes refreshed continuously.</p>
         </div>
+        <img class="bottle" src="img/glucotrust-german.png" alt="GlucoTrust German bottle" loading="lazy" onerror="this.style.display='none'">
         <span class="badge">🏆 All-Time Best Blood-Sugar Offer</span>
       </header>
       <div class="kpis">
         <div class="kpi"><b>$2.45</b><span>EPC (min $2.30)</span></div>
         <div class="kpi"><b>$231</b><span>AOV</span></div>
         <div class="kpi"><b>1.82%</b><span>CVR</span></div>
-        <div class="kpi"><b>60–70%</b><span>RevShare</span></div>
+        <div class="kpi"><b>60–75%</b><span>RevShare</span></div>
         <div class="kpi"><b>€120–150</b><span>CPA · $137–171</span></div>
       </div>
       <div class="body">
@@ -800,7 +810,7 @@
       <div class="epi rev"><h4>The Market-Size Miscalculation</h4><p>"Small market" is the wrong read. One-third of the US is not a niche — it's the US of 2019 with 2026 spending power and a fraction of the buyers' ad fatigue.</p></div>
       <div class="epi rev"><h4>The Doctor-Trust Differential</h4><p>German buyers convert on credentials, not hype. The whole portfolio is fronted by one real, verifiable doctor — Dr. Eric Wood. One doctor. Nine offers. Total consistency.</p></div>
       <div class="epi rev"><h4>The Refund Silent Killer — Solved</h4><p>DACH buyers refund less. The CPA math your dashboard shows is the CPA math you keep — commission clawbacks stop eating your margin quietly.</p></div>
-      <div class="epi rev"><h4>The Deep-Funnel Multiplier</h4><p>€177–294 AOV on core offers, €245+ on the ecosystem — and you earn 60–70% through the entire funnel, not front-end scraps.</p></div>
+      <div class="epi rev"><h4>The Deep-Funnel Multiplier</h4><p>€177–294 AOV on core offers, €245+ on the VIP Wellness System — and you earn 60–75% through the entire funnel, not front-end scraps.</p></div>
       <div class="epi rev"><h4>The Infrastructure Shortcut</h4><p>Market entry usually costs months: translation, funnels, compliance, support. Here it's already built and converting. You bring traffic — everything else is running.</p></div>
     </div>
     <p class="proofline rev"><b>The thesis is proven:</b> our team did <b>8 figures in this exact market</b> with GlucoTrust German — then compounded the playbook across nine offers. You're not the experiment. You're the scale phase.</p>
@@ -827,7 +837,7 @@
 
     <div class="ladder rev" role="list" aria-label="Deal tiers">
       <div class="rung" role="listitem"><span>Start</span><b>60%</b><p>RevShare through the entire funnel, from your first sale. No approval theater.</p></div>
-      <div class="rung" role="listitem"><span>Volume</span><b>→ 70%</b><p>Prove your traffic and the RevShare rises. Volume gets rewarded, every time.</p></div>
+      <div class="rung" role="listitem"><span>Volume</span><b>→ 75%</b><p>Prove your traffic and the RevShare rises. Volume gets rewarded, every time.</p></div>
       <div class="rung hot" role="listitem"><span>Operators</span><b>CPA €120–150</b><p>Currently $137–171. Or hybrid deals for qualified partners — structured per traffic source and quality.</p></div>
     </div>
 
@@ -927,7 +937,7 @@
   <div class="cta rev">
     <div class="eyebrow">Commission Bumps &amp; CPA</div>
     <h2>Volume gets rewarded. Every time.</h2>
-    <p>Everyone starts at 60% RevShare through the entire funnel. Prove your traffic and we raise you toward 70% — or move you to CPA of €120–150 per sale (currently $137–171), depending on volume and traffic quality. Super-affiliates get custom VSL intros, priority payouts and direct access to our media-buying team.</p>
+    <p>Everyone starts at 60% RevShare through the entire funnel. Prove your traffic and we raise you toward 75% — or move you to CPA of €120–150 per sale (currently $137–171), depending on volume and traffic quality. Super-affiliates get custom VSL intros, priority payouts and direct access to our media-buying team.</p>
     <div class="row">
       <a class="btn primary" href="#apply">Apply as a volume operator</a>
       <a class="btn" href="mailto:affiliates@pronutraquest.com?subject=Vidalytics%20Traffic%20Analysis%20Request">Request a traffic analysis</a>
