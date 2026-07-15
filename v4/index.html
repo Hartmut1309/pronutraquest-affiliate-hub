@@ -41,12 +41,12 @@
   body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased}
   a{color:var(--acc);text-decoration:none}
   a:hover{text-decoration:underline}
-  .wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+  .wrap{max-width:1240px;margin:0 auto;padding:0 20px}
   .eyebrow{font-size:13.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:800}
   h1,h2{font-family:var(--disp);font-weight:800;letter-spacing:-.01em;text-wrap:balance}
   h1{font-size:clamp(36px,5.4vw,60px);line-height:1.04;margin:.25em 0 .3em}
   h2{font-size:clamp(28px,3.6vw,40px);line-height:1.1;margin:0 0 14px}
-  .lede{color:var(--mut);max-width:64ch;font-size:19px}
+  .lede{color:var(--mut);max-width:none;font-size:19px}
   .lede strong{color:var(--ink)}
   button{font-family:var(--sans)}
 
@@ -127,7 +127,7 @@
   .chip[aria-pressed="true"]{background:var(--catc,var(--ink));border-color:var(--catc,var(--ink));color:#fff}
   .chip:focus-visible{outline:2.5px solid var(--acc);outline-offset:2px}
   .count{font-size:14px;color:var(--dim);margin-left:auto;font-weight:600}
-  .langline{font-size:16px;color:var(--mut);margin:0 0 22px;max-width:82ch}
+  .langline{font-size:16px;color:var(--mut);margin:0 0 22px;max-width:none}
   .langline b{color:var(--ink)}
 
   /* offer cards */
@@ -142,7 +142,7 @@
   .eyebrow2{font-size:13px;letter-spacing:.15em;text-transform:uppercase;color:var(--dim);font-weight:800;margin-bottom:7px}
   .eyebrow2 b{color:var(--catc,var(--gold))}
   .card h3{font-family:var(--disp);font-weight:800;font-size:26px;line-height:1.16;margin:0 0 9px;letter-spacing:-.005em;text-wrap:balance}
-  .subhead{margin:0;font-size:16.5px;color:var(--mut);max-width:78ch;font-weight:600}
+  .subhead{margin:0;font-size:16.5px;color:var(--mut);max-width:none;font-weight:600}
   .badge{font-size:11.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;border-radius:6px;padding:6px 10px;background:var(--gold-dim);color:var(--gold);border:1px solid color-mix(in srgb,var(--gold) 40%,transparent);white-space:nowrap;margin-top:4px}
   .badge.green{background:var(--acc-dim);color:var(--acc);border-color:color-mix(in srgb,var(--acc) 40%,transparent)}
   .badge.plain{background:transparent;color:var(--dim);border-color:var(--line2)}
@@ -154,7 +154,7 @@
   .kpi b.na{color:var(--mut);font-weight:500;font-size:16.5px}
   .kpi span{font-size:12px;letter-spacing:.11em;text-transform:uppercase;color:var(--dim);font-weight:800}
   .card .body{padding:18px 26px 24px}
-  .pitch{color:var(--mut);max-width:76ch;margin:0 0 14px;font-size:17px}
+  .pitch{color:var(--mut);max-width:none;margin:0 0 14px;font-size:17px}
   .pitch strong{color:var(--ink)}
   .hooks{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px;padding:0;list-style:none}
   .hooks li{font-size:14.5px;font-weight:600;color:var(--mut);border:1px solid var(--line);border-radius:8px;padding:7px 13px;background:var(--bg2)}
@@ -216,6 +216,12 @@
   .opform input:focus,.opform select:focus{outline:2.5px solid var(--acc);outline-offset:1px;border-color:transparent}
   .opform .plain{font-size:14.5px;color:var(--dim);margin-top:12px}
 
+  .pipeline{display:flex;gap:26px;align-items:center;justify-content:space-between;flex-wrap:wrap;border:1.5px dashed color-mix(in srgb,var(--gold) 55%,var(--line2));border-radius:14px;background:var(--gold-dim);padding:22px 26px;margin-top:22px}
+  .pipeline h3{font-family:var(--disp);font-weight:800;font-size:22px;margin:6px 0 8px}
+  .pipeline ul{margin:0;padding:0;list-style:none;color:var(--mut);font-size:16.5px}
+  .pipeline li{margin:3px 0}
+  .pipeline .pa{max-width:340px}
+  .pipeline .pa .note{margin-top:8px}
   .intel{border:1.5px solid color-mix(in srgb,var(--acc) 35%,var(--line));border-radius:16px;background:
     radial-gradient(700px 300px at 90% -80px,var(--acc-dim),transparent 60%),var(--card);
     padding:32px;margin-top:26px}
@@ -223,7 +229,7 @@
   .intel ul{margin:14px 0 0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:12px 26px}
   .intel li{position:relative;padding-left:26px;color:var(--mut);font-size:16.5px}
   .intel li::before{content:"";position:absolute;left:0;top:8px;width:11px;height:11px;border-radius:3px;background:var(--acc)}
-  .guarantee{margin-top:20px;border-top:1.5px dashed var(--line2);padding-top:16px;font-size:16.5px;color:var(--mut);max-width:82ch}
+  .guarantee{margin-top:20px;border-top:1.5px dashed var(--line2);padding-top:16px;font-size:16.5px;color:var(--mut);max-width:none}
   .guarantee b{color:var(--acc)}
 
   .market{display:grid;grid-template-columns:1.1fr .9fr;gap:26px;margin-top:24px}
@@ -666,10 +672,10 @@
         <div class="hgroup">
           <div class="eyebrow2"><b>VigorSana</b> · Men's Health · Performance · German-language funnel · DACH + EU</div>
           <h3>The "Bio-Energetic Leak" Quietly Draining Men Over 40 — and the 4-Phase Fix</h3>
-          <p class="subhead">A private, doctor-free solution for men too embarrassed to ask — 180-day empty-bottle guarantee removes purchase friction.</p>
+          <p class="subhead">A private, doctor-free solution for men too embarrassed to ask — 60-day money-back guarantee removes purchase friction.</p>
         </div>
         <img class="bottle" src="img/vigorsana.png" alt="VigorSana bottle" loading="lazy" onerror="this.style.display='none'">
-        <span class="badge plain">180-Day Empty-Bottle Guarantee</span>
+        <span class="badge plain">60-Day Money-Back Guarantee</span>
       </header>
       <div class="kpis">
         <div class="kpi"><b class="na">— ask support</b><span>EPC</span></div>
@@ -681,7 +687,7 @@
       <div class="body">
         <p class="pitch">Men 40+ want their edge back — energy, performance, confidence — but are <strong>too embarrassed to see a doctor</strong>. A private solution with instant appeal: the "Bio-Energetic Leak" mechanism and a 4-phase cellular reactivation protocol, backed by clinical studies incl. the <em>Journal of Sex &amp; Marital Therapy</em> (92.5% success rate). No blue-pill positioning.</p>
         <ul class="hooks">
-          <li><b>180-day</b> guarantee = low refunds</li>
+          <li><b>60-day</b> guarantee = low refunds</li>
           <li>Fresh "starved motor" angle vs. tired T-boosters</li>
           <li>Privacy + desperation = conversions</li>
         </ul>
@@ -797,7 +803,20 @@
 
   </div>
 
-  <p class="srcnote" style="margin-top:18px">Pipeline: <b>MindSana — Mind Matrix Formula</b> is in preparation. Approved affiliates hear about new VSLs first — <a href="mailto:affiliates@pronutraquest.com">get on the early list</a>.</p>
+  <div class="pipeline rev" id="pipeline">
+    <div class="pt">
+      <div class="eyebrow" style="color:var(--gold)">In Production — Two New Offers</div>
+      <h3>Coming next: be first when the funnels go live</h3>
+      <ul>
+        <li><b>HeroSana Caliber Gummies</b> — ED / men&rsquo;s-health gummies · VSL &amp; TSL in preparation</li>
+        <li><b>MindSana — Mind Matrix Formula</b> · VSL &amp; TSL in preparation</li>
+      </ul>
+    </div>
+    <div class="pa">
+      <a class="btn primary" href="mailto:affiliates@pronutraquest.com?subject=Early%20List%20%E2%80%94%20HeroSana%20Caliber%20Gummies%20%2B%20MindSana&amp;body=Digistore24%20ID%3A%0ATraffic%20sources%3A%0APlease%20notify%20me%20when%20the%20VSL%2FTSL%20go%20live.">Get on the early list →</a>
+      <p class="note">We email the early list the day the VSL/TSL are ready — before the offers appear on this page.</p>
+    </div>
+  </div>
 
   <!-- why DACH -->
   <section class="block" id="why">
@@ -813,7 +832,7 @@
       <div class="epi rev"><h4>The Deep-Funnel Multiplier</h4><p>€177–294 AOV on core offers, €245+ on the VIP Wellness System — and you earn 60–75% through the entire funnel, not front-end scraps.</p></div>
       <div class="epi rev"><h4>The Infrastructure Shortcut</h4><p>Market entry usually costs months: translation, funnels, compliance, support. Here it's already built and converting. You bring traffic — everything else is running.</p></div>
     </div>
-    <p class="proofline rev"><b>The thesis is proven:</b> our team did <b>8 figures in this exact market</b> with GlucoTrust German — then compounded the playbook across nine offers. You're not the experiment. You're the scale phase.</p>
+    <p class="proofline rev"><b>The thesis is proven:</b> our team took GlucoTrust — the all-time best performing blood-sugar offer on Clickbank — and turned its German edition into the market-defining blood-sugar offer for DACH, then compounded that exact playbook across nine offers. You’re not the experiment. You’re the scale phase.</p>
     <div class="quoterow rev">
       <span>"<b>Angles that died in the US are alive in Germany.</b>"</span>
       <span>"A hundred million people who haven't seen your angle."</span>
@@ -861,7 +880,7 @@
     <h2>We don't just hand you links. We debug your traffic.</h2>
     <div class="intel rev">
       <h3>VSL Traffic Intelligence — Vidalytics &amp; VTurb testing support</h3>
-      <p class="pitch" style="max-width:82ch">Our funnels run on player-level video analytics. For active affiliates we read your campaign the way we read our own: where viewers drop, where buyers lean in, and whether your ad's psychology matches the VSL's opening state. Identical VSLs convert at 2.3% for one buyer and 0.6% for another — the difference is almost never "traffic quality," it's ad-to-VSL alignment. We show you where yours breaks.</p>
+      <p class="pitch">Our funnels run on player-level video analytics. For active affiliates we read your campaign the way we read our own: where viewers drop, where buyers lean in, and whether your ad's psychology matches the VSL's opening state. Identical VSLs convert at 2.3% for one buyer and 0.6% for another — the difference is almost never "traffic quality," it's ad-to-VSL alignment. We show you where yours breaks.</p>
       <ul>
         <li>VSL KPI benchmarking against health-vertical norms (hook hold, minute-3 retention, CTA clicks)</li>
         <li>Ad-angle → VSL-lead alignment review before you spend, not after</li>
