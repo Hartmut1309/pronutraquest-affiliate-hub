@@ -1,222 +1,359 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="ProNutraQuest Affiliate Hub — The DACH Advantage for Performance Affiliates">
+<meta property="og:description" content="110M affluent German speakers, 40–60% cheaper CPMs, a fraction of the competition. 9 doctor-fronted offers, 60–75% RevShare, live link generator.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hartmut1309.github.io/pronutraquest-affiliate-hub/">
+<meta property="og:image" content="https://hartmut1309.github.io/pronutraquest-affiliate-hub/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="description" content="The DACH market advantage for supplement affiliates: 9 doctor-fronted Digistore24 offers, KPIs, EPCs and a live affiliate-link generator.">
 <title>ProNutraQuest Affiliate Hub</title>
 <style>
+  @font-face{font-family:"Bricolage Grotesque";font-style:normal;font-weight:200 800;src:url(fonts/bricolage-grotesque-latin.woff2) format("woff2");font-display:swap}
+  @font-face{font-family:Manrope;font-style:normal;font-weight:200 800;src:url(fonts/manrope-latin.woff2) format("woff2");font-display:swap}
   :root{
-    --bg:#0B1220; --bg2:#0E1626; --card:#111B2E; --card2:#0F1930;
-    --line:#22304A; --line2:#2C3D5C;
-    --ink:#E8EDF6; --mut:#8CA0BF; --dim:#5E7396;
-    --acc:#3FD9A4; --acc-ink:#062117; --acc-dim:rgba(63,217,164,.13);
-    --gold:#D9B36B; --gold-dim:rgba(217,179,107,.14);
-    --danger:#E07A6B;
-    --serif:"Palatino Linotype",Palatino,"Book Antiqua","URW Palladio L",Georgia,serif;
-    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    --bg:#F4F6FA; --bg2:#EAEEF6; --card:#FFFFFF; --card2:#F8FAFD;
+    --line:#D3DCEA; --line2:#BFCCDF;
+    --ink:#0A1220; --mut:#26394F; --dim:#4E6484;
+    --acc:#0B8A64; --acc-ink:#FFFFFF; --acc-dim:rgba(11,138,100,.10);
+    --gold:#8A6A20; --gold-dim:rgba(138,106,32,.12);
+    --danger:#B3402F;
+    --money:#0E1626; --money-ink:#EDF1F8; --money-acc:#3FD9A4;
+    --c-weight:#E8590C; --c-blood:#1971C2; --c-gut:#2F9E44; --c-nerve:#6741D9; --c-men:#C2255C; --c-bundle:#B08D2F;
+    --disp:"Bricolage Grotesque","Archivo Black",-apple-system,"Segoe UI",sans-serif;
+    --sans:Manrope,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     --mono:"SF Mono",SFMono-Regular,"Cascadia Code",Menlo,Consolas,"Liberation Mono",monospace;
-    --rad:10px;
-  }
-  @media (prefers-color-scheme: light){
-    :root{
-      --bg:#F2F5FA; --bg2:#EAEFF7; --card:#FFFFFF; --card2:#F7FAFD;
-      --line:#D5DEEC; --line2:#C2CFE3;
-      --ink:#13233C; --mut:#4E617F; --dim:#7C8DA8;
-      --acc:#0E9C71; --acc-ink:#FFFFFF; --acc-dim:rgba(14,156,113,.10);
-      --gold:#8A6B2F; --gold-dim:rgba(138,107,47,.12);
-      --danger:#B3402F;
-    }
+    --rad:12px;
   }
   :root[data-theme="dark"]{
-    --bg:#0B1220; --bg2:#0E1626; --card:#111B2E; --card2:#0F1930;
-    --line:#22304A; --line2:#2C3D5C;
-    --ink:#E8EDF6; --mut:#8CA0BF; --dim:#5E7396;
+    --bg:#0B1220; --bg2:#0E1626; --card:#121C30; --card2:#101a2c;
+    --line:#243350; --line2:#2F4160;
+    --ink:#EFF3FA; --mut:#B4C3DA; --dim:#8399BA;
     --acc:#3FD9A4; --acc-ink:#062117; --acc-dim:rgba(63,217,164,.13);
     --gold:#D9B36B; --gold-dim:rgba(217,179,107,.14);
     --danger:#E07A6B;
-  }
-  :root[data-theme="light"]{
-    --bg:#F2F5FA; --bg2:#EAEFF7; --card:#FFFFFF; --card2:#F7FAFD;
-    --line:#D5DEEC; --line2:#C2CFE3;
-    --ink:#13233C; --mut:#4E617F; --dim:#7C8DA8;
-    --acc:#0E9C71; --acc-ink:#FFFFFF; --acc-dim:rgba(14,156,113,.10);
-    --gold:#8A6B2F; --gold-dim:rgba(138,107,47,.12);
-    --danger:#B3402F;
+    --money:#0A1120; --money-ink:#EDF1F8; --money-acc:#3FD9A4;
+    --c-weight:#FF8A3D; --c-blood:#4DA3E8; --c-gut:#51C462; --c-nerve:#9775FA; --c-men:#F06595; --c-bundle:#D9B36B;
   }
   *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
   html,body{margin:0;padding:0}
-  body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased}
   a{color:var(--acc);text-decoration:none}
   a:hover{text-decoration:underline}
-  .wrap{max-width:1100px;margin:0 auto;padding:0 20px}
-  .eyebrow{font-family:var(--sans);font-size:11.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:600}
-  h1,h2{font-family:var(--serif);font-weight:700;letter-spacing:.01em;text-wrap:balance}
-  h1{font-size:clamp(38px,6vw,64px);line-height:1.04;margin:.25em 0 .3em}
-  h2{font-size:clamp(24px,3.2vw,34px);line-height:1.15;margin:0 0 14px}
-  .lede{color:var(--mut);max-width:62ch;font-size:17.5px}
+  .wrap{max-width:1240px;margin:0 auto;padding:0 20px}
+  .eyebrow{font-size:13.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:800}
+  h1,h2{font-family:var(--disp);font-weight:800;letter-spacing:-.01em;text-wrap:balance}
+  h1{font-size:clamp(36px,5.4vw,60px);line-height:1.04;margin:.25em 0 .3em}
+  h2{font-size:clamp(28px,3.6vw,40px);line-height:1.1;margin:0 0 14px}
+  .lede{color:var(--mut);max-width:none;font-size:19px}
+  .lede strong{color:var(--ink)}
   button{font-family:var(--sans)}
 
+  /* flags as svg symbols */
+  .flag{width:28px;height:20px;border-radius:3.5px;box-shadow:0 0 0 1px rgba(10,18,32,.14);vertical-align:-4px;display:inline-block}
+  .flag.sm{width:23px;height:16px;vertical-align:-3px}
+
   /* top bar */
-  .topbar{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-  .topbar .wrap{display:flex;align-items:center;gap:14px;padding:10px 20px}
-  .brand{font-family:var(--serif);font-size:17px;font-weight:700;white-space:nowrap}
-  .brand small{display:block;font-family:var(--sans);font-weight:600;font-size:10px;letter-spacing:.2em;color:var(--gold);text-transform:uppercase}
-  .topbar .idbox{display:flex;align-items:center;gap:8px;margin-left:auto;flex-wrap:wrap;justify-content:flex-end}
-  .idbox label{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);font-weight:600}
-  .idbox input{background:var(--card2);border:1px solid var(--line2);color:var(--ink);border-radius:8px;padding:8px 10px;font-family:var(--mono);font-size:13.5px;width:150px}
-  .idbox input:focus{outline:2px solid var(--acc);outline-offset:1px;border-color:transparent}
+  .topbar{position:sticky;top:0;z-index:60;background:color-mix(in srgb,var(--bg) 94%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .topbar .wrap{display:flex;align-items:center;gap:18px;padding:10px 20px}
+  .brand{font-family:var(--disp);font-weight:800;font-size:23px;white-space:nowrap;color:var(--ink)}
+  .brand small{display:block;font-family:var(--sans);font-weight:800;font-size:12.5px;letter-spacing:.2em;color:var(--gold);text-transform:uppercase}
+  .navlinks{display:flex;gap:16px;font-size:15px;font-weight:700}
+  .navlinks a{color:var(--mut)}
+  .navlinks a:hover{color:var(--acc);text-decoration:none}
+  @media(max-width:900px){.navlinks{display:none}}
+  .topbar .idbox{display:flex;align-items:center;gap:8px;margin-left:auto}
+  .idbox input{background:var(--card);border:1.5px solid var(--line2);color:var(--ink);border-radius:9px;padding:9px 11px;font-family:var(--mono);font-size:15px;width:160px}
+  .idbox input:focus{outline:2.5px solid var(--acc);outline-offset:1px;border-color:transparent}
   .idbox input::placeholder{color:var(--dim)}
-
-  /* hero */
-  .hero{padding:64px 0 30px;background:
-    radial-gradient(1100px 420px at 75% -180px, var(--acc-dim), transparent 65%),
-    radial-gradient(700px 320px at 8% -120px, var(--gold-dim), transparent 70%)}
-  .hero .flag{display:inline-flex;gap:8px;align-items:center;border:1px solid var(--line2);border-radius:999px;padding:5px 14px;font-size:12.5px;color:var(--mut);margin-bottom:18px}
-  .hero .flag b{color:var(--acc);font-weight:700}
-  .statstrip{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--rad);overflow:hidden;margin:34px 0 8px}
-  .stat{background:var(--card);padding:16px 16px 13px}
-  .stat b{display:block;font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:clamp(19px,2.4vw,25px);color:var(--acc);letter-spacing:-.01em}
-  .stat span{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);font-weight:600}
-  .srcnote{font-size:12px;color:var(--dim);margin-top:10px}
-
-  /* generator panel */
-  .genpanel{border:1px solid var(--line2);background:linear-gradient(180deg,var(--card),var(--card2));border-radius:var(--rad);padding:18px 20px;margin:26px 0 8px;display:flex;gap:18px;flex-wrap:wrap;align-items:end}
-  .genpanel .f{display:flex;flex-direction:column;gap:6px}
-  .genpanel label{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);font-weight:700}
-  .genpanel input{background:var(--bg2);border:1px solid var(--line2);color:var(--ink);border-radius:8px;padding:11px 12px;font-family:var(--mono);font-size:15px;width:230px}
-  .genpanel input:focus{outline:2px solid var(--acc);outline-offset:1px;border-color:transparent}
-  .genpanel .hint{flex-basis:100%;font-size:12.5px;color:var(--dim);margin-top:2px}
-  .btn{cursor:pointer;border-radius:8px;border:1px solid var(--line2);background:var(--card2);color:var(--ink);padding:10px 16px;font-size:13.5px;font-weight:600}
+  .btn{cursor:pointer;border-radius:9px;border:1.5px solid var(--line2);background:var(--card);color:var(--ink);padding:11px 17px;font-size:15px;font-weight:700}
   .btn:hover{border-color:var(--acc)}
-  .btn:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+  .btn:focus-visible{outline:2.5px solid var(--acc);outline-offset:2px}
   .btn.primary{background:var(--acc);border-color:var(--acc);color:var(--acc-ink)}
   .btn.primary:hover{filter:brightness(1.07)}
-  .btn.small{padding:6px 11px;font-size:12px;border-radius:7px}
+  .btn.small{padding:7px 13px;font-size:14px;border-radius:8px}
+  .themebtn{font-size:17px;padding:8px 12px;line-height:1}
 
-  /* filters */
-  .filters{display:flex;gap:8px;flex-wrap:wrap;margin:30px 0 20px;align-items:center}
-  .chip{cursor:pointer;border:1px solid var(--line2);background:transparent;color:var(--mut);border-radius:999px;padding:7px 14px;font-size:12.5px;font-weight:600;letter-spacing:.04em}
-  .chip[aria-pressed="true"]{background:var(--acc);border-color:var(--acc);color:var(--acc-ink)}
-  .chip:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
-  .count{font-size:12.5px;color:var(--dim);margin-left:auto}
+  /* offer rail */
+  .rail{position:sticky;top:57px;z-index:55;background:color-mix(in srgb,var(--bg) 96%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  .rail .wrap{display:flex;gap:8px;overflow-x:auto;padding:9px 20px;scrollbar-width:none}
+  .rail .wrap::-webkit-scrollbar{display:none}
+  .rpill{flex:0 0 auto;display:inline-flex;align-items:center;gap:7px;border:1.5px solid var(--line2);background:color-mix(in srgb,var(--catc,var(--dim)) 9%,var(--card));border-radius:999px;padding:7px 14px 7px 9px;font-size:14px;font-weight:800;color:var(--mut);white-space:nowrap}
+  .rpill i{font-style:normal;font-family:var(--mono);font-size:13px;font-weight:700;width:22px;height:22px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;background:var(--bg2);color:var(--catc,var(--dim))}
+  .rpill:hover{text-decoration:none;border-color:var(--catc,var(--acc))}
+  .rpill.active{border-color:var(--catc,var(--acc));color:var(--ink);box-shadow:inset 0 0 0 1px var(--catc,var(--acc))}
+  .rpill.active i{background:var(--catc,var(--acc));color:#fff}
+
+  /* hero */
+  .hero{padding:56px 0 30px;background:
+    radial-gradient(1100px 420px at 78% -180px, var(--acc-dim), transparent 65%),
+    radial-gradient(700px 320px at 6% -120px, var(--gold-dim), transparent 70%)}
+  .hero .flagpill{display:inline-flex;gap:9px;align-items:center;border:1.5px solid var(--line2);border-radius:999px;padding:7px 16px;font-size:14.5px;font-weight:600;color:var(--mut);margin-bottom:18px;background:var(--card)}
+  .hero .flagpill b{color:var(--acc);font-weight:800}
+  .quoteline{margin:14px 0 0;font-family:var(--disp);font-weight:600;font-size:20px;color:var(--dim)}
+  .quoteline b{color:var(--acc)}
+
+  /* money strip */
+  .statstrip{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1px;background:color-mix(in srgb,var(--money-ink) 14%,var(--money));border:1px solid color-mix(in srgb,var(--money-ink) 14%,var(--money));border-radius:var(--rad);overflow:hidden;margin:34px 0 8px;box-shadow:0 10px 30px -18px rgba(10,18,32,.5)}
+  .stat{background:var(--money);padding:19px 18px 16px}
+  .stat b{display:block;font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:clamp(24px,2.8vw,31px);color:var(--money-acc);letter-spacing:-.01em}
+  .stat span{font-size:12.5px;letter-spacing:.1em;text-transform:uppercase;color:color-mix(in srgb,var(--money-ink) 62%,var(--money));font-weight:800}
+  .srcnote{font-size:14.5px;color:var(--dim);margin-top:10px}
+  .srcnote b{color:var(--mut)}
+
+  /* generator panel */
+  .genpanel{border:1.5px solid var(--line2);background:linear-gradient(180deg,var(--card),var(--card2));border-radius:var(--rad);padding:22px 24px;margin:26px 0 8px;display:flex;gap:18px;flex-wrap:wrap;align-items:end;box-shadow:0 1px 3px rgba(10,18,32,.06);scroll-margin-top:130px}
+  .genpanel .f{display:flex;flex-direction:column;gap:6px}
+  .genpanel label{font-size:12px;letter-spacing:.15em;text-transform:uppercase;color:var(--dim);font-weight:800}
+  .genpanel input{background:var(--bg2);border:1.5px solid var(--line2);color:var(--ink);border-radius:9px;padding:13px 14px;font-family:var(--mono);font-size:16.5px;width:250px}
+  .genpanel input:focus{outline:2.5px solid var(--acc);outline-offset:1px;border-color:transparent}
+  .genpanel .hint{flex-basis:100%;font-size:14.5px;color:var(--dim);margin-top:2px}
+
+  /* hero index */
+  .indexwrap{border:1px solid var(--line);border-radius:var(--rad);overflow:hidden;margin-top:18px;background:var(--card)}
+  .indexwrap table{width:100%;border-collapse:collapse;font-size:15px}
+  .indexwrap th{font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--dim);text-align:left;padding:10px 16px;background:var(--card2);border-bottom:1px solid var(--line);font-weight:800}
+  .indexwrap td{padding:8px 16px;border-bottom:1px solid var(--line);color:var(--mut);font-weight:600}
+  .indexwrap tr:last-child td{border-bottom:none}
+  .indexwrap td.r{font-family:var(--mono);color:var(--ink);text-align:right}
+  .indexwrap a{font-weight:800}
+  .idot{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:9px;vertical-align:0}
+
+  /* filters + langline */
+  .filters{display:flex;gap:8px;flex-wrap:wrap;margin:34px 0 10px;align-items:center}
+  .chip{cursor:pointer;border:1.5px solid var(--line2);background:var(--card);color:var(--mut);border-radius:999px;padding:9px 17px;font-size:15px;font-weight:700;display:inline-flex;align-items:center;gap:8px}
+  .chip .dot{width:9px;height:9px;border-radius:50%;background:var(--catc,var(--dim))}
+  .chip[aria-pressed="true"]{background:var(--catc,var(--ink));border-color:var(--catc,var(--ink));color:#fff}
+  .chip:focus-visible{outline:2.5px solid var(--acc);outline-offset:2px}
+  .count{font-size:14px;color:var(--dim);margin-left:auto;font-weight:600}
+  .langline{font-size:16px;color:var(--mut);margin:0 0 22px;max-width:none}
+  .langline b{color:var(--ink)}
 
   /* offer cards */
-  .cards{display:flex;flex-direction:column;gap:22px;padding-bottom:8px}
-  .card{border:1px solid var(--line);border-radius:14px;background:linear-gradient(180deg,var(--card) 0%,var(--card2) 100%);overflow:hidden}
+  .cards{display:flex;flex-direction:column;gap:24px;padding-bottom:8px}
+  .card{border:1px solid var(--line);border-radius:16px;background:linear-gradient(180deg,color-mix(in srgb,var(--catc,var(--gold)) 10%,var(--card)) 0%,var(--card) 46%,var(--card2) 100%);overflow:hidden;box-shadow:0 1px 3px rgba(10,18,32,.05);scroll-margin-top:130px;position:relative;transition:transform .18s ease,box-shadow .18s ease}
+  .card:hover{transform:translateY(-3px);box-shadow:0 14px 34px -18px rgba(10,18,32,.35)}
+  .card::before{content:"";position:absolute;top:0;left:0;right:0;height:10px;background:var(--catc,var(--gold))}
   .card.flagship{border-color:color-mix(in srgb,var(--gold) 55%,var(--line))}
-  .card header{display:flex;gap:16px;padding:20px 22px 14px;align-items:baseline;flex-wrap:wrap}
-  .rank{font-family:var(--serif);font-size:34px;font-weight:700;color:var(--gold);min-width:40px;line-height:1}
-  .card h3{font-family:var(--serif);font-size:25px;margin:0;letter-spacing:.01em}
-  .meta{color:var(--dim);font-size:13px}
-  .meta b{color:var(--mut);font-weight:600}
-  .badge{font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;border-radius:5px;padding:4px 8px;background:var(--gold-dim);color:var(--gold);border:1px solid color-mix(in srgb,var(--gold) 40%,transparent)}
+  .card header{display:flex;gap:18px;padding:26px 26px 16px;align-items:flex-start;flex-wrap:wrap}
+  .rank{font-family:var(--disp);font-size:46px;font-weight:800;color:var(--catc,var(--gold));min-width:48px;line-height:1;padding-top:2px}
+  .hgroup{flex:1;min-width:260px}
+  .eyebrow2{font-size:13px;letter-spacing:.15em;text-transform:uppercase;color:var(--dim);font-weight:800;margin-bottom:7px}
+  .eyebrow2 b{color:var(--catc,var(--gold))}
+  .card h3{font-family:var(--disp);font-weight:800;font-size:26px;line-height:1.16;margin:0 0 9px;letter-spacing:-.005em;text-wrap:balance}
+  .subhead{margin:0;font-size:16.5px;color:var(--mut);max-width:none;font-weight:600}
+  .badge{font-size:11.5px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;border-radius:6px;padding:6px 10px;background:var(--gold-dim);color:var(--gold);border:1px solid color-mix(in srgb,var(--gold) 40%,transparent);white-space:nowrap;margin-top:4px}
   .badge.green{background:var(--acc-dim);color:var(--acc);border-color:color-mix(in srgb,var(--acc) 40%,transparent)}
   .badge.plain{background:transparent;color:var(--dim);border-color:var(--line2)}
-  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(105px,1fr));gap:1px;background:var(--line);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-  .kpi{background:var(--card2);padding:11px 14px 9px}
-  .kpi b{display:block;font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:16.5px;color:var(--acc)}
-  .kpi b.na{color:var(--dim);font-weight:400}
-  .kpi span{font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--dim);font-weight:700}
-  .card .body{padding:16px 22px 20px}
-  .pitch{color:var(--mut);max-width:75ch;margin:0 0 12px;font-size:15px}
+  .bottle{height:150px;width:auto;object-fit:contain;align-self:center;filter:drop-shadow(0 6px 12px rgba(10,18,32,.18))}
+  @media(max-width:640px){.bottle{height:104px}}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(128px,1fr));gap:1px;background:var(--line);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .kpi{background:var(--card2);padding:14px 16px 12px}
+  .kpi b{display:block;font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:22px;color:var(--acc)}
+  .kpi b.na{color:var(--mut);font-weight:500;font-size:16.5px}
+  .kpi span{font-size:12px;letter-spacing:.11em;text-transform:uppercase;color:var(--dim);font-weight:800}
+  .card .body{padding:18px 26px 24px}
+  .pitch{color:var(--mut);max-width:none;margin:0 0 14px;font-size:17px}
   .pitch strong{color:var(--ink)}
-  .hooks{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px;padding:0;list-style:none}
-  .hooks li{font-size:12.5px;color:var(--mut);border:1px solid var(--line);border-radius:7px;padding:5px 10px;background:var(--bg2)}
-  .aud{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:16px}
-  .aud div span{display:block;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);font-weight:700}
-  .aud div b{font-size:13.5px;font-weight:600;color:var(--mut)}
-  .linkrows{display:flex;flex-direction:column;gap:8px}
-  .lrow{display:flex;align-items:stretch;gap:8px}
-  .lrow .tag{flex:0 0 92px;display:flex;align-items:center;justify-content:flex-end;font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);padding-right:2px}
-  .lrow .url{flex:1;min-width:0;display:flex;align-items:center;background:var(--bg2);border:1px solid var(--line);border-radius:8px;padding:8px 12px;font-family:var(--mono);font-size:12px;color:var(--mut);overflow-x:auto;white-space:nowrap;scrollbar-width:thin}
+  .hooks{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px;padding:0;list-style:none}
+  .hooks li{font-size:14.5px;font-weight:600;color:var(--mut);border:1px solid var(--line);border-radius:8px;padding:7px 13px;background:var(--bg2)}
+  .hooks li b{color:var(--catc,var(--acc))}
+  .aud{display:flex;gap:30px;flex-wrap:wrap;margin-bottom:18px}
+  .aud div span{display:block;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);font-weight:800;margin-bottom:3px}
+  .aud div b{font-size:16px;font-weight:700;color:var(--mut)}
+  .linkrows{display:flex;flex-direction:column;gap:9px}
+  .lrow{display:flex;align-items:stretch;gap:9px}
+  .lrow .tag{flex:0 0 104px;display:flex;align-items:center;justify-content:flex-end;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--dim);padding-right:2px}
+  .lrow .url{flex:1;min-width:0;display:flex;align-items:center;background:var(--bg2);border:1px solid var(--line);border-radius:9px;padding:10px 14px;font-family:var(--mono);font-size:14px;color:var(--mut);overflow-x:auto;white-space:nowrap;scrollbar-width:thin}
   .lrow .url .aff{color:var(--acc);font-weight:700}
   .lrow .url .cam{color:var(--gold);font-weight:700}
-  .resources{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
-  .resources a{font-size:12.5px;font-weight:600;border:1px solid var(--line2);border-radius:8px;padding:7px 12px;color:var(--mut);background:var(--card)}
+  .resources{display:flex;gap:9px;flex-wrap:wrap;margin-top:18px}
+  .resources a{font-size:14.5px;font-weight:700;border:1.5px solid var(--line2);border-radius:9px;padding:9px 14px;color:var(--mut);background:var(--card)}
   .resources a:hover{color:var(--acc);border-color:var(--acc);text-decoration:none}
-  .cardfoot{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-top:16px;flex-wrap:wrap}
-  .note{font-size:12px;color:var(--dim)}
+  .cardfoot{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-top:18px;flex-wrap:wrap}
+  .note{font-size:14px;color:var(--dim);font-weight:600}
 
   /* sections */
-  section.block{padding:56px 0 8px}
-  .grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin-top:22px}
-  .tile{border:1px solid var(--line);border-radius:12px;background:var(--card);padding:20px}
-  .tile h4{margin:0 0 6px;font-size:15.5px;font-family:var(--sans);font-weight:700}
-  .tile p{margin:0;color:var(--mut);font-size:14px}
-  .tile .n{font-family:var(--serif);color:var(--gold);font-size:20px;font-weight:700;display:block;margin-bottom:8px}
+  section.block{padding:60px 0 8px;scroll-margin-top:120px}
+  .grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-top:24px}
+  .tile{border:1px solid var(--line);border-radius:14px;background:var(--card);padding:24px;transition:transform .18s ease,box-shadow .18s ease}
+  .tile:hover{transform:translateY(-3px);box-shadow:0 12px 28px -18px rgba(10,18,32,.3)}
+  .tile h4{margin:0 0 7px;font-size:18px;font-weight:800;color:var(--ink)}
+  .tile p{margin:0;color:var(--mut);font-size:16px}
+  .tile .n{font-family:var(--disp);color:var(--gold);font-size:26px;font-weight:800;display:block;margin-bottom:8px}
 
-  .intel{border:1px solid color-mix(in srgb,var(--acc) 35%,var(--line));border-radius:14px;background:
+  /* epiphanies */
+  .epis{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px;margin-top:24px;counter-reset:epi}
+  .epi{border:1px solid var(--line);border-radius:14px;background:var(--card);padding:24px;position:relative;transition:transform .18s ease,box-shadow .18s ease}
+  .epi:hover{transform:translateY(-3px);box-shadow:0 12px 28px -18px rgba(10,18,32,.3)}
+  .epi::before{counter-increment:epi;content:counter(epi,decimal-leading-zero);font-family:var(--mono);font-size:13px;font-weight:700;color:var(--acc);letter-spacing:.1em}
+  .epi h4{margin:6px 0 7px;font-size:18.5px;font-weight:800;color:var(--ink);font-family:var(--disp)}
+  .epi p{margin:0;color:var(--mut);font-size:16px}
+  .proofline{margin:22px 0 0;padding:18px 22px;border:1.5px dashed color-mix(in srgb,var(--gold) 50%,var(--line2));border-radius:12px;background:var(--gold-dim);font-size:17px;color:var(--mut);max-width:100%}
+  .proofline b{color:var(--ink)}
+  .quoterow{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+  .quoterow span{font-family:var(--disp);font-weight:600;font-size:17px;color:var(--mut);border:1px solid var(--line2);border-radius:999px;padding:9px 18px;background:var(--card)}
+  .quoterow span b{color:var(--acc)}
+
+  /* operators */
+  .opsgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-top:24px}
+  .ladder{display:flex;gap:0;align-items:stretch;margin:26px 0 8px;flex-wrap:wrap}
+  .rung{flex:1;min-width:220px;border:1.5px solid var(--line2);background:var(--card);padding:20px 22px;position:relative}
+  .rung:first-child{border-radius:12px 0 0 12px}
+  .rung:last-child{border-radius:0 12px 12px 0;border-left:none}
+  .rung+.rung{border-left:none}
+  .rung b{display:block;font-family:var(--mono);font-size:24px;color:var(--acc);margin-bottom:4px}
+  .rung span{font-size:13px;letter-spacing:.11em;text-transform:uppercase;color:var(--dim);font-weight:800}
+  .rung p{margin:6px 0 0;font-size:15px;color:var(--mut)}
+  .rung.hot{background:linear-gradient(180deg,var(--acc-dim),transparent);border-color:color-mix(in srgb,var(--acc) 45%,var(--line2))}
+  .opform{border:1.5px solid var(--line2);border-radius:var(--rad);background:linear-gradient(180deg,var(--card),var(--card2));padding:26px;margin-top:26px}
+  .opform h3{font-family:var(--disp);font-weight:800;font-size:24px;margin:0 0 6px}
+  .opform p.sub{margin:0 0 18px;color:var(--mut);font-size:16px}
+  .opform .row{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px;margin-bottom:14px}
+  .opform label{display:block;font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:var(--dim);font-weight:800;margin-bottom:6px}
+  .opform input,.opform select{width:100%;background:var(--bg2);border:1.5px solid var(--line2);color:var(--ink);border-radius:9px;padding:12px 13px;font-size:16px;font-family:var(--sans)}
+  .opform input:focus,.opform select:focus{outline:2.5px solid var(--acc);outline-offset:1px;border-color:transparent}
+  .opform .plain{font-size:14.5px;color:var(--dim);margin-top:12px}
+
+  .pipeline{display:flex;gap:26px;align-items:center;justify-content:space-between;flex-wrap:wrap;border:1.5px dashed color-mix(in srgb,var(--gold) 55%,var(--line2));border-radius:14px;background:var(--gold-dim);padding:22px 26px;margin-top:22px}
+  .pipeline h3{font-family:var(--disp);font-weight:800;font-size:22px;margin:6px 0 8px}
+  .pipeline ul{margin:0;padding:0;list-style:none;color:var(--mut);font-size:16.5px}
+  .pipeline li{margin:3px 0}
+  .pipeline .pa{max-width:340px}
+  .pipeline .pa .note{margin-top:8px}
+  .intel{border:1.5px solid color-mix(in srgb,var(--acc) 35%,var(--line));border-radius:16px;background:
     radial-gradient(700px 300px at 90% -80px,var(--acc-dim),transparent 60%),var(--card);
-    padding:30px 28px;margin-top:26px}
-  .intel h3{font-family:var(--serif);font-size:24px;margin:0 0 10px}
-  .intel ul{margin:14px 0 0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:10px 24px}
-  .intel li{position:relative;padding-left:24px;color:var(--mut);font-size:14.5px}
-  .intel li::before{content:"";position:absolute;left:0;top:7px;width:10px;height:10px;border-radius:3px;background:var(--acc)}
-  .guarantee{margin-top:20px;border-top:1px dashed var(--line2);padding-top:16px;font-size:14.5px;color:var(--mut);max-width:80ch}
+    padding:32px;margin-top:26px}
+  .intel h3{font-family:var(--disp);font-weight:800;font-size:26px;margin:0 0 10px;color:var(--ink)}
+  .intel ul{margin:14px 0 0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:12px 26px}
+  .intel li{position:relative;padding-left:26px;color:var(--mut);font-size:16.5px}
+  .intel li::before{content:"";position:absolute;left:0;top:8px;width:11px;height:11px;border-radius:3px;background:var(--acc)}
+  .guarantee{margin-top:20px;border-top:1.5px dashed var(--line2);padding-top:16px;font-size:16.5px;color:var(--mut);max-width:none}
   .guarantee b{color:var(--acc)}
 
-  .market{display:grid;grid-template-columns:1.1fr .9fr;gap:26px;margin-top:22px}
+  .market{display:grid;grid-template-columns:1.1fr .9fr;gap:26px;margin-top:24px}
   @media(max-width:820px){.market{grid-template-columns:1fr}}
-  .tablewrap{border:1px solid var(--line);border-radius:12px;overflow:hidden}
-  table{width:100%;border-collapse:collapse;font-size:13.5px}
-  th{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);text-align:left;padding:10px 16px;background:var(--card2);border-bottom:1px solid var(--line)}
-  td{padding:8px 16px;border-bottom:1px solid var(--line);color:var(--mut)}
-  tr:last-child td{border-bottom:none}
-  td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;color:var(--ink);text-align:right}
-  .barcell{width:42%}
-  .bar{height:7px;border-radius:4px;background:var(--acc);opacity:.85}
-  .shipbox{border:1px solid var(--line);border-radius:12px;background:var(--card);padding:20px}
-  .shipbox p{color:var(--mut);font-size:14px}
+  .tablewrap{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--card)}
+  table.mkt{width:100%;border-collapse:collapse;font-size:15.5px}
+  table.mkt th{font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--dim);text-align:left;padding:11px 16px;background:var(--card2);border-bottom:1px solid var(--line);font-weight:800}
+  table.mkt td{padding:10px 16px;border-bottom:1px solid var(--line);color:var(--mut);font-weight:600}
+  table.mkt tr:last-child td{border-bottom:none}
+  table.mkt td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;color:var(--ink);text-align:right}
+  .barcell{width:38%}
+  .bar{height:9px;border-radius:5px;background:var(--acc);opacity:.9}
+  .shipbox{border:1px solid var(--line);border-radius:14px;background:var(--card);padding:24px}
+  .shipbox h4{margin:0 0 8px;font-size:18px;color:var(--ink);font-weight:800}
+  .shipbox p{color:var(--mut);font-size:16px}
+  .shipbox b{color:var(--ink)}
 
-  .rules{columns:2;column-gap:34px;margin-top:18px}
+  .rules{columns:2;column-gap:36px;margin-top:20px;padding-left:24px}
   @media(max-width:760px){.rules{columns:1}}
-  .rules li{break-inside:avoid;color:var(--mut);font-size:14.5px;margin:0 0 12px;padding-left:4px}
+  .rules li{break-inside:avoid;color:var(--mut);font-size:16.5px;margin:0 0 14px;padding-left:4px}
   .rules li b{color:var(--ink)}
   .rules li.hard::marker{color:var(--danger)}
 
-  .cta{border:1px solid var(--line2);border-radius:16px;margin:56px 0 20px;padding:40px 34px;text-align:center;background:
+  .cta{border:1.5px solid var(--line2);border-radius:18px;margin:60px 0 20px;padding:44px 36px;text-align:center;background:
     radial-gradient(600px 260px at 50% -120px,var(--gold-dim),transparent 60%),var(--card)}
   .cta h2{margin-bottom:8px}
-  .cta p{color:var(--mut);max-width:64ch;margin:0 auto 20px}
-  .cta .row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+  .cta p{color:var(--mut);max-width:66ch;margin:0 auto 20px;font-size:17px}
+  .cta .row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;align-items:center}
+  .cta .plain{font-size:15.5px;color:var(--dim)}
 
-  footer{border-top:1px solid var(--line);margin-top:30px;padding:26px 0 44px;color:var(--dim);font-size:12.5px}
-  footer .wrap{display:flex;flex-direction:column;gap:8px}
+  footer{border-top:1px solid var(--line);margin-top:30px;padding:26px 0 46px;color:var(--dim);font-size:14px}
+  footer .wrap{display:flex;flex-direction:column;gap:10px}
+  footer b{color:var(--mut)}
+  .legallinks{display:flex;gap:8px 22px;flex-wrap:wrap;font-size:14.5px;font-weight:700}
+  .legallinks a{color:var(--mut)}
+  .legallinks a:hover{color:var(--acc)}
 
-  .toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%) translateY(8px);background:var(--acc);color:var(--acc-ink);font-weight:700;font-size:13.5px;border-radius:9px;padding:10px 18px;opacity:0;pointer-events:none;transition:opacity .18s ease,transform .18s ease;z-index:99}
+  .toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%) translateY(8px);background:var(--acc);color:var(--acc-ink);font-weight:800;font-size:15px;border-radius:10px;padding:12px 20px;opacity:0;pointer-events:none;transition:opacity .18s ease,transform .18s ease;z-index:99}
   .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
-  @media (prefers-reduced-motion: reduce){.toast{transition:none}}
+  .fab{position:fixed;right:18px;bottom:18px;z-index:70;display:none;gap:8px}
+  .fab.show{display:flex}
+  .fab button{border-radius:999px;border:1.5px solid var(--line2);background:var(--ink);color:var(--bg);font-weight:800;font-size:14.5px;padding:12px 18px;cursor:pointer;box-shadow:0 10px 24px -12px rgba(10,18,32,.5)}
+  .fab button:hover{background:var(--acc);color:var(--acc-ink);border-color:var(--acc)}
+
+  /* reveal */
+  .rev{opacity:0;transform:translateY(14px);transition:opacity .5s ease,transform .5s ease}
+  .rev.in{opacity:1;transform:none}
+  @media (prefers-reduced-motion: reduce){.rev{opacity:1;transform:none;transition:none}.card,.tile,.epi{transition:none}.toast{transition:none}}
   @media(max-width:640px){
     .lrow{flex-direction:column;gap:4px}
     .lrow .tag{flex-basis:auto;justify-content:flex-start}
-    .topbar .idbox input{width:110px}
+    .topbar .idbox input{width:104px}
+    .rank{font-size:36px;min-width:38px}
+    .indexwrap .hidem{display:none}
   }
 </style>
+
+<svg style="display:none" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="f-de" viewBox="0 0 3 2"><rect width="3" height="2" fill="#000"/><rect y=".667" width="3" height="1.333" fill="#DD0000"/><rect y="1.333" width="3" height=".667" fill="#FFCE00"/></symbol>
+  <symbol id="f-at" viewBox="0 0 3 2"><rect width="3" height="2" fill="#ED2939"/><rect y=".667" width="3" height=".667" fill="#fff"/></symbol>
+  <symbol id="f-ch" viewBox="0 0 3 2"><rect width="3" height="2" fill="#DA291C"/><rect x="1.3" y=".35" width=".4" height="1.3" fill="#fff"/><rect x=".85" y=".8" width="1.3" height=".4" fill="#fff"/></symbol>
+  <symbol id="f-eu" viewBox="0 0 3 2"><rect width="3" height="2" fill="#003399"/><g fill="#FFCC00"><circle cx="2.1" cy="1" r=".09"/><circle cx="2.02" cy="1.3" r=".09"/><circle cx="1.8" cy="1.52" r=".09"/><circle cx="1.5" cy="1.6" r=".09"/><circle cx="1.2" cy="1.52" r=".09"/><circle cx=".98" cy="1.3" r=".09"/><circle cx=".9" cy="1" r=".09"/><circle cx=".98" cy=".7" r=".09"/><circle cx="1.2" cy=".48" r=".09"/><circle cx="1.5" cy=".4" r=".09"/><circle cx="1.8" cy=".48" r=".09"/><circle cx="2.02" cy=".7" r=".09"/></g></symbol>
+  <symbol id="f-li" viewBox="0 0 3 2"><rect width="3" height="2" fill="#002B7F"/><rect y="1" width="3" height="1" fill="#CE1126"/><circle cx=".45" cy=".5" r=".18" fill="#FFCC00"/></symbol>
+  <symbol id="f-no" viewBox="0 0 3 2"><rect width="3" height="2" fill="#BA0C2F"/><rect x=".75" width=".55" height="2" fill="#fff"/><rect y=".73" width="3" height=".55" fill="#fff"/><rect x=".89" width=".27" height="2" fill="#00205B"/><rect y=".87" width="3" height=".27" fill="#00205B"/></symbol>
+  <symbol id="f-is" viewBox="0 0 3 2"><rect width="3" height="2" fill="#02529C"/><rect x=".75" width=".55" height="2" fill="#fff"/><rect y=".73" width="3" height=".55" fill="#fff"/><rect x=".89" width=".27" height="2" fill="#DC1E35"/><rect y=".87" width="3" height=".27" fill="#DC1E35"/></symbol>
+  <symbol id="f-es" viewBox="0 0 3 2"><rect width="3" height="2" fill="#AA151B"/><rect y=".5" width="3" height="1" fill="#F1BF00"/></symbol>
+  <symbol id="f-lu" viewBox="0 0 3 2"><rect width="3" height="2" fill="#ED2939"/><rect y=".667" width="3" height=".667" fill="#fff"/><rect y="1.333" width="3" height=".667" fill="#00A1DE"/></symbol>
+  <symbol id="f-it" viewBox="0 0 3 2"><rect width="1" height="2" fill="#009246"/><rect x="1" width="1" height="2" fill="#fff"/><rect x="2" width="1" height="2" fill="#CE2B37"/></symbol>
+  <symbol id="f-hu" viewBox="0 0 3 2"><rect width="3" height="2" fill="#CD2A3E"/><rect y=".667" width="3" height=".667" fill="#fff"/><rect y="1.333" width="3" height=".667" fill="#436F4D"/></symbol>
+  <symbol id="f-dk" viewBox="0 0 3 2"><rect width="3" height="2" fill="#C8102E"/><rect x=".8" width=".4" height="2" fill="#fff"/><rect y=".8" width="3" height=".4" fill="#fff"/></symbol>
+</svg>
 
 <div class="topbar">
   <div class="wrap">
     <div class="brand">ProNutraQuest<small>Affiliate Hub · Digistore24</small></div>
+    <nav class="navlinks" aria-label="Sections">
+      <a href="#cards">Offers</a>
+      <a href="#why">Why DACH</a>
+      <a href="#operators">For Operators</a>
+      <a href="#market">Market Data</a>
+      <a href="#rules">Rules</a>
+    </nav>
     <div class="idbox">
-      <label for="affTop">Your ID</label>
       <input id="affTop" placeholder="digistore-id" autocomplete="off" spellcheck="false" aria-label="Your Digistore24 affiliate ID">
       <button class="btn primary small" id="copyAllTop" type="button">Copy all links</button>
+      <button class="btn small themebtn" id="themeBtn" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">◐</button>
     </div>
   </div>
 </div>
 
+<nav class="rail" aria-label="Jump to offer">
+  <div class="wrap">
+    <a class="rpill" style="--catc:var(--c-weight)" href="#offer-1"><i>1</i> SlimSana</a>
+    <a class="rpill" style="--catc:var(--c-weight)" href="#offer-2"><i>2</i> KetoSana</a>
+    <a class="rpill" style="--catc:var(--c-weight)" href="#offer-3"><i>3</i> MetaboSana</a>
+    <a class="rpill" style="--catc:var(--c-gut)" href="#offer-4"><i>4</i> CleanseSana</a>
+    <a class="rpill" style="--catc:var(--c-blood)" href="#offer-5"><i>5</i> GlucoSana</a>
+    <a class="rpill" style="--catc:var(--c-nerve)" href="#offer-6"><i>6</i> NerveSana</a>
+    <a class="rpill" style="--catc:var(--c-men)" href="#offer-7"><i>7</i> VigorSana</a>
+    <a class="rpill" style="--catc:var(--c-bundle)" href="#offer-8"><i>8</i> VitaSana</a>
+    <a class="rpill" style="--catc:var(--c-blood)" href="#offer-9"><i>9</i> GlucoTrust</a>
+  </div>
+</nav>
+
 <header class="hero">
   <div class="wrap">
-    <div class="flag">● <b>9 offers live</b>&nbsp;· German-speaking Europe · updated 14 July 2026</div>
+    <div class="flagpill">● <b>9 offers live</b>&nbsp;· <svg class="flag sm"><use href="#f-de"/></svg> <svg class="flag sm"><use href="#f-at"/></svg> <svg class="flag sm"><use href="#f-ch"/></svg>&nbsp;German-speaking Europe · updated 15 July 2026</div>
     <div class="eyebrow">ProNutraQuest × Digistore24 · Partner Program</div>
-    <h1>The DACH Health-Offer Portfolio That Pays Like the US Did in 2019.</h1>
-    <p class="lede">Nine doctor-fronted supplement funnels for the <strong>110-million-person German-speaking market</strong> — built by the team behind GlucoTrust's German run. Lower CPMs, deeper funnels, buyers who trust science and pay premium. Enter your Digistore24 ID once and every link on this page becomes yours.</p>
+    <h1>Your Current Angles Are Saturated. The DACH Version of Them Hasn't Run Yet.</h1>
+    <p class="lede"><strong>110 million affluent German speakers</strong> — one-third the US market — at <strong>40–60% cheaper CPMs</strong>, with a fraction of the competition. Nine doctor-fronted supplement funnels, <strong>60–75% RevShare</strong> through the whole funnel, top EPC <strong>~$6.10</strong>. Buyers who spend more, refund less, and have <strong>never seen your angle</strong>.</p>
+    <p class="quoteline">"<b>It's the US market in 2019.</b>" — enter your Digistore24 ID once, every link on this page becomes yours.</p>
     <div class="statstrip" role="list">
-      <div class="stat" role="listitem"><b>60–70%</b><span>RevShare, whole funnel</span></div>
-      <div class="stat" role="listitem"><b>€120–150</b><span>CPA for volume players</span></div>
-      <div class="stat" role="listitem"><b>$6.10</b><span>Top offer EPC (KetoSana)</span></div>
-      <div class="stat" role="listitem"><b>€177–294</b><span>Deep-funnel AOV range</span></div>
       <div class="stat" role="listitem"><b>110M</b><span>German-speaking buyers</span></div>
+      <div class="stat" role="listitem"><b>40–60%</b><span>Cheaper CPMs vs US</span></div>
+      <div class="stat" role="listitem"><b>60–75%</b><span>RevShare, whole funnel</span></div>
+      <div class="stat" role="listitem"><b>€120–150</b><span>CPA · currently $137–171</span></div>
+      <div class="stat" role="listitem"><b>$6.10</b><span>Top offer EPC (KetoSana)</span></div>
     </div>
     <p class="srcnote">Figures from our live Digistore24 campaign data, July 2026. EPCs are network averages across approved traffic — your results depend on your traffic quality.</p>
 
-    <div class="genpanel">
+    <div class="genpanel" id="generator">
       <div class="f">
         <label for="affMain">Digistore24 Affiliate ID</label>
         <input id="affMain" placeholder="e.g. mediabuyer24" autocomplete="off" spellcheck="false">
@@ -226,52 +363,72 @@
         <input id="camMain" placeholder="e.g. fb-test-01" autocomplete="off" spellcheck="false">
       </div>
       <button class="btn primary" id="copyAllMain" type="button">Copy all 9 promo links</button>
-      <div class="hint">Links update live as you type: <code>?aff=</code><span style="color:var(--acc);font-weight:700">your-id</span><code>&amp;cam=</code><span style="color:var(--gold);font-weight:700">campaign-key</span>. No Digistore24 account yet? Each offer card has a one-click signup link.</div>
+      <div class="hint">Links update live as you type: <code>?aff=</code><span style="color:var(--acc);font-weight:800">your-id</span><code>&amp;cam=</code><span style="color:var(--gold);font-weight:800">campaign-key</span>. New to Digistore24? <a href="https://www.digistore24.com" target="_blank" rel="noopener">Create your free account</a> — one account covers every offer here.</div>
+    </div>
+
+    <div class="indexwrap rev">
+      <table>
+        <thead><tr><th>#</th><th>Offer</th><th class="hidem">Niche</th><th style="text-align:right">EPC</th><th></th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td><span class="idot" style="background:var(--c-weight)"></span>SlimSana</td><td class="hidem">Weight Loss</td><td class="r">$1.90</td><td><a href="#offer-1">Jump →</a></td></tr>
+          <tr><td>2</td><td><span class="idot" style="background:var(--c-weight)"></span>KetoSana</td><td class="hidem">Keto Weight Loss</td><td class="r">$6.10</td><td><a href="#offer-2">Jump →</a></td></tr>
+          <tr><td>3</td><td><span class="idot" style="background:var(--c-weight)"></span>MetaboSana</td><td class="hidem">Metabolism</td><td class="r">fresh</td><td><a href="#offer-3">Jump →</a></td></tr>
+          <tr><td>4</td><td><span class="idot" style="background:var(--c-gut)"></span>CleanseSana</td><td class="hidem">Detox &amp; Gut</td><td class="r">$2.60</td><td><a href="#offer-4">Jump →</a></td></tr>
+          <tr><td>5</td><td><span class="idot" style="background:var(--c-blood)"></span>GlucoSana</td><td class="hidem">Blood Sugar</td><td class="r">ask</td><td><a href="#offer-5">Jump →</a></td></tr>
+          <tr><td>6</td><td><span class="idot" style="background:var(--c-nerve)"></span>NerveSana</td><td class="hidem">Nerve Health</td><td class="r">ask</td><td><a href="#offer-6">Jump →</a></td></tr>
+          <tr><td>7</td><td><span class="idot" style="background:var(--c-men)"></span>VigorSana</td><td class="hidem">Men's Health</td><td class="r">ask</td><td><a href="#offer-7">Jump →</a></td></tr>
+          <tr><td>8</td><td><span class="idot" style="background:var(--c-bundle)"></span>VitaSana Collection</td><td class="hidem">VIP Wellness System</td><td class="r">ask</td><td><a href="#offer-8">Jump →</a></td></tr>
+          <tr><td>9</td><td><span class="idot" style="background:var(--c-blood)"></span>GlucoTrust German</td><td class="hidem">Blood Sugar · Flagship</td><td class="r">$2.45</td><td><a href="#offer-9">Jump →</a></td></tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </header>
 
 <main class="wrap">
 
-  <div class="filters" role="toolbar" aria-label="Filter offers by category">
+  <div class="filters" role="toolbar" aria-label="Filter offers by category" id="cards">
     <button class="chip" aria-pressed="true" data-f="all" type="button">All offers · 9</button>
-    <button class="chip" aria-pressed="false" data-f="weight" type="button">Weight Loss</button>
-    <button class="chip" aria-pressed="false" data-f="blood" type="button">Blood Sugar</button>
-    <button class="chip" aria-pressed="false" data-f="gut" type="button">Detox &amp; Gut</button>
-    <button class="chip" aria-pressed="false" data-f="nerve" type="button">Nerve Health</button>
-    <button class="chip" aria-pressed="false" data-f="men" type="button">Men's Health</button>
-    <button class="chip" aria-pressed="false" data-f="bundle" type="button">Ecosystem</button>
+    <button class="chip" aria-pressed="false" data-f="weight" type="button" style="--catc:var(--c-weight)"><span class="dot"></span>Weight Loss</button>
+    <button class="chip" aria-pressed="false" data-f="blood" type="button" style="--catc:var(--c-blood)"><span class="dot"></span>Blood Sugar</button>
+    <button class="chip" aria-pressed="false" data-f="gut" type="button" style="--catc:var(--c-gut)"><span class="dot"></span>Detox &amp; Gut</button>
+    <button class="chip" aria-pressed="false" data-f="nerve" type="button" style="--catc:var(--c-nerve)"><span class="dot"></span>Nerve Health</button>
+    <button class="chip" aria-pressed="false" data-f="men" type="button" style="--catc:var(--c-men)"><span class="dot"></span>Men's Health</button>
+    <button class="chip" aria-pressed="false" data-f="bundle" type="button" style="--catc:var(--c-bundle)"><span class="dot"></span>VIP Wellness System</button>
     <span class="count" id="countLabel">Showing 9 of 9</span>
   </div>
+  <p class="langline"><b>The funnels are German — you don't need to be.</b> Every page, VSL and checkout below is professionally built in German. Run our swipes and angles translated for you, or point your proven creatives at German-speaking audiences. <em>The language barrier is the moat</em> — it kept your competitors out, not you.</p>
 
-  <div class="cards" id="cards">
+  <div class="cards" id="cardlist">
 
     <!-- 1 · SlimSana -->
-    <article class="card" data-cat="weight">
+    <article class="card rev" data-cat="weight" id="offer-1" style="--catc:var(--c-weight)">
       <header>
         <div class="rank">1</div>
-        <div>
-          <h3>SlimSana</h3>
-          <div class="meta"><b>Weight Loss</b> · German VSL + PDP · DACH + German speakers EU-wide</div>
+        <div class="hgroup">
+          <div class="eyebrow2"><b>SlimSana</b> · Weight Loss · German-language funnel · DACH + EU</div>
+          <h3>Harvard Naturopath's 60-Second "Metabolic Switch" Fix Germans Ignore</h3>
+          <p class="subhead">11-ingredient deep funnel for DACH's most frustrated weight-loss buyers — ~$1.90 EPC, 60–75% RevShare, traffic 40–60% below US rates.</p>
         </div>
+        <img class="bottle" src="img/slimsana.png" alt="SlimSana bottle" loading="lazy" onerror="this.style.display='none'">
         <span class="badge green">Proven Core Offer</span>
       </header>
       <div class="kpis">
         <div class="kpi"><b>$1.90</b><span>EPC (≈ €1.60)</span></div>
-        <div class="kpi"><b class="na">—</b><span>AOV · ask support</span></div>
-        <div class="kpi"><b>60–70%</b><span>RevShare</span></div>
-        <div class="kpi"><b>€120–150</b><span>CPA</span></div>
+        <div class="kpi"><b class="na">— ask support</b><span>AOV</span></div>
+        <div class="kpi"><b>60–75%</b><span>RevShare</span></div>
+        <div class="kpi"><b>€120–150</b><span>CPA · $137–171</span></div>
         <div class="kpi"><b>35–60+</b><span>Women &amp; Men</span></div>
       </div>
       <div class="body">
         <p class="pitch">A Harvard-trained naturopath reveals the hidden <strong>"metabolic switch"</strong> sabotaging fat loss for frustrated Germans 35–60+ — and how 11 clinically researched ingredients flip it in 60 seconds a day. Emotional storytelling plus scientific credibility, from the team behind GlucoTrust's German run.</p>
         <ul class="hooks">
-          <li>Deep funnel → higher AOV &amp; EPC</li>
-          <li>Converts cold traffic (email, native, social)</li>
-          <li>Underserved DACH weight-loss demand</li>
+          <li><b>11</b> clinically researched ingredients</li>
+          <li>Converts cold email, native &amp; social</li>
+          <li>Weight loss = DACH's biggest health spend</li>
         </ul>
         <div class="aud">
-          <div><span>Geo</span><b>🇩🇪 🇦🇹 🇨🇭 + German speakers in EU</b></div>
+          <div><span>Geo</span><b><svg class="flag"><use href="#f-de"/></svg> <svg class="flag"><use href="#f-at"/></svg> <svg class="flag"><use href="#f-ch"/></svg> + German speakers in EU</b></div>
           <div><span>Segment</span><b>Women &amp; men 35–60+, failed diets</b></div>
         </div>
         <div class="linkrows">
@@ -279,43 +436,44 @@
           <div class="lrow"><div class="tag">PDP page</div><div class="url" data-link="https://myslimsana.com/slimsana-pdp-fe?aff=AFFILIATE&amp;cam=CAMPAIGNKEY"></div><button class="btn small copy" type="button">Copy</button></div>
         </div>
         <div class="resources">
-          <a href="https://www.digistore24.com/signup/651468,651467,651454,651455,651456,651457,651459,651461,651462,651463,651464,651465,651466/" target="_blank" rel="noopener">Digistore24 signup</a>
-          <a href="https://digistore24-affiliate.mydigibiz24.com/slimsana-weight-loss/index.html" target="_blank" rel="noopener">Offer support page</a>
+          <a href="offers/slimsana/" style="border-color:var(--acc);color:var(--acc);font-weight:800">Full offer page →</a>
           <a href="https://drive.google.com/drive/folders/1t81_w0ka4dA6v-fN5r-dVEMcyd68Yek9" target="_blank" rel="noopener">Materials: VSL script, angles, psychographics</a>
         </div>
         <div class="cardfoot">
-          <span class="note">RevShare starts at 60% across the whole funnel — rises to 70% with volume. CPA on request.</span>
+          <span class="note">RevShare starts at 60% across the whole funnel — rises to 75% with volume. CPA on request.</span>
           <button class="btn small copyall" type="button">Copy this offer's links</button>
         </div>
       </div>
     </article>
 
     <!-- 2 · KetoSana -->
-    <article class="card" data-cat="weight">
+    <article class="card rev" data-cat="weight" id="offer-2" style="--catc:var(--c-weight)">
       <header>
         <div class="rank">2</div>
-        <div>
-          <h3>KetoSana</h3>
-          <div class="meta"><b>Keto Weight Loss</b> · Premium liquid drops · DACH + EU</div>
+        <div class="hgroup">
+          <div class="eyebrow2"><b>KetoSana</b> · Keto Weight Loss · German-language funnel · DACH + EU</div>
+          <h3>Germany's Highest-EPC Keto Offer Runs on a Mechanism Nobody Else Is Selling</h3>
+          <p class="subhead">Our single highest-EPC offer at ~$6.10 — premium liquid drops, AOV €177–294, 60-day guarantee, made-in-Germany trust that closes cold DACH traffic.</p>
         </div>
-        <span class="badge">Top EPC · $6.10</span>
+        <img class="bottle" src="img/ketosana.png" alt="KetoSana bottle" loading="lazy" onerror="this.style.display='none'">
+        <span class="badge">🏆 Top EPC · $6.10</span>
       </header>
       <div class="kpis">
         <div class="kpi"><b>$6.10</b><span>EPC (≈ €5.20)</span></div>
         <div class="kpi"><b>€177–294</b><span>AOV</span></div>
-        <div class="kpi"><b>60–70%</b><span>RevShare*</span></div>
-        <div class="kpi"><b>€120–150</b><span>CPA</span></div>
+        <div class="kpi"><b>60–75%</b><span>RevShare*</span></div>
+        <div class="kpi"><b>€120–150</b><span>CPA · $137–171</span></div>
         <div class="kpi"><b>30–60+</b><span>Women &amp; Men</span></div>
       </div>
       <div class="body">
-        <p class="pitch"><strong>Clinical-grade keto, zero hype.</strong> Harvard-trained Dr. Eric Wood — two decades treating celebrities and Fortune-500 execs, featured on ABC, NBC, FOX — reveals the three biological "locks" that keep Germans fat after 40, and the pharma-grade formula that opens all three. Made in Germany. 60-day guarantee.</p>
+        <p class="pitch"><strong>Clinical-grade keto, zero hype.</strong> Harvard-trained Dr. Eric Wood — 17+ years treating high-performers in his US practice, featured on ABC, NBC, FOX — reveals the three biological "locks" that keep Germans fat after 40, and the pharma-grade formula that opens all three. Made in Germany. 60-day guarantee.</p>
         <ul class="hooks">
-          <li>Our highest EPC right now</li>
+          <li><b>$6.10 EPC</b> — our current #1</li>
           <li>22 clinically dosed ingredients</li>
           <li>Speaks to skeptics burned by diet hype</li>
         </ul>
         <div class="aud">
-          <div><span>Geo</span><b>🇩🇪 🇦🇹 🇨🇭 + German speakers in EU</b></div>
+          <div><span>Geo</span><b><svg class="flag"><use href="#f-de"/></svg> <svg class="flag"><use href="#f-at"/></svg> <svg class="flag"><use href="#f-ch"/></svg> + German speakers in EU</b></div>
           <div><span>Segment</span><b>30–65, optimal 40–58 · keto-curious, disposable income</b></div>
         </div>
         <div class="linkrows">
@@ -323,8 +481,7 @@
           <div class="lrow"><div class="tag">PDP page</div><div class="url" data-link="https://myketosana.com/ketosana-pdp-fe?aff=AFFILIATE&amp;cam=CAMPAIGNKEY"></div><button class="btn small copy" type="button">Copy</button></div>
         </div>
         <div class="resources">
-          <a href="https://www.digistore24.com/signup/661133,661141,661129,661130,661131,661132,661134,661135,661136,661137,661138,661139,661140/" target="_blank" rel="noopener">Digistore24 signup</a>
-          <a href="https://digistore24-affiliate.mydigibiz24.com/ketosana/index.html" target="_blank" rel="noopener">Offer support page</a>
+          <a href="offers/ketosana/" style="border-color:var(--acc);color:var(--acc);font-weight:800">Full offer page →</a>
           <a href="https://drive.google.com/drive/folders/1BuaCKRyYBrygAvYtXS9f-TSkbiOaB5Rm" target="_blank" rel="noopener">Materials: VSL script, angles, psychographics</a>
         </div>
         <div class="cardfoot">
@@ -335,31 +492,33 @@
     </article>
 
     <!-- 3 · MetaboSana -->
-    <article class="card" data-cat="weight">
+    <article class="card rev" data-cat="weight" id="offer-3" style="--catc:var(--c-weight)">
       <header>
         <div class="rank">3</div>
-        <div>
-          <h3>MetaboSana</h3>
-          <div class="meta"><b>Metabolism</b> · 9-step deep funnel · DACH + EU</div>
+        <div class="hgroup">
+          <div class="eyebrow2"><b>MetaboSana</b> · Metabolism · German-language funnel · DACH + EU</div>
+          <h3>Stanford-Backed 3-Phase "Cell Unlock" Makes Clean Eating Finally Work</h3>
+          <p class="subhead">Fresh VSL live since April 22 with strong early stats — AOV €177–294 and a research story that converts DACH's science-trusting diet skeptics.</p>
         </div>
-        <span class="badge green">New VSL · Live since 22 Apr</span>
+        <img class="bottle" src="img/metabosana.png" alt="MetaboSana bottle" loading="lazy" onerror="this.style.display='none'">
+        <span class="badge green">⚡ New VSL · Zero Ad Fatigue</span>
       </header>
       <div class="kpis">
-        <div class="kpi"><b class="na">fresh</b><span>EPC · strong early stats</span></div>
+        <div class="kpi"><b class="na">fresh — ask</b><span>EPC · strong early stats</span></div>
         <div class="kpi"><b>€177–294</b><span>AOV</span></div>
-        <div class="kpi"><b>60–70%</b><span>RevShare</span></div>
-        <div class="kpi"><b>€120–150</b><span>CPA</span></div>
+        <div class="kpi"><b>60–75%</b><span>RevShare</span></div>
+        <div class="kpi"><b>€120–150</b><span>CPA · $137–171</span></div>
         <div class="kpi"><b>30+</b><span>Women &amp; Men</span></div>
       </div>
       <div class="body">
-        <p class="pitch">The cellular <strong>"Stoffwechsel-Blockade"</strong> angle: a Harvard-trained health detective shows why fat cells are "imprisoned" — trapping fat and blocking nutrients no matter how clean you eat — and the three-phase protocol that unlocks them. Unusually high-quality VSL, launched 22 April with strong early numbers. First-mover window is open.</p>
+        <p class="pitch">The cellular <strong>"Stoffwechsel-Blockade"</strong> angle: a Harvard-trained health detective shows why fat cells are "imprisoned" — trapping fat and blocking nutrients no matter how clean you eat — and the three-phase protocol that unlocks them. Unusually high-quality VSL. First-mover window is open.</p>
         <ul class="hooks">
-          <li>Fresh mechanism, zero ad fatigue</li>
+          <li>VSL <b>12 weeks old</b> — zero ad fatigue</li>
           <li>Stanford-backed research story</li>
-          <li>Email swipes available via Digistore24</li>
+          <li>Email swipes via Digistore24</li>
         </ul>
         <div class="aud">
-          <div><span>Geo</span><b>🇩🇪 🇦🇹 🇨🇭 + German speakers in EU</b></div>
+          <div><span>Geo</span><b><svg class="flag"><use href="#f-de"/></svg> <svg class="flag"><use href="#f-at"/></svg> <svg class="flag"><use href="#f-ch"/></svg> + German speakers in EU</b></div>
           <div><span>Segment</span><b>Science-minded premium buyers 30+</b></div>
         </div>
         <div class="linkrows">
@@ -367,8 +526,7 @@
           <div class="lrow"><div class="tag">PDP page</div><div class="url" data-link="https://metabosana.com/metabosana-pdp-fe?aff=AFFILIATE&amp;cam=CAMPAIGNKEY"></div><button class="btn small copy" type="button">Copy</button></div>
         </div>
         <div class="resources">
-          <a href="https://www.digistore24.com/signup/663166,663174,663162,663163,663164,663165,663167,663168,663169,663170,663171,663172,663173/" target="_blank" rel="noopener">Digistore24 signup</a>
-          <a href="https://digistore24-affiliate.mydigibiz24.com/metabosana-en/index.html" target="_blank" rel="noopener">Offer support page</a>
+          <a href="offers/metabosana/" style="border-color:var(--acc);color:var(--acc);font-weight:800">Full offer page →</a>
           <a href="https://drive.google.com/drive/folders/12x8xEba9e37lQULX6rCb2VC1MpHODGnI" target="_blank" rel="noopener">Materials: VSL script, angles, psychographics</a>
         </div>
         <div class="cardfoot">
@@ -379,39 +537,40 @@
     </article>
 
     <!-- 4 · CleanseSana -->
-    <article class="card" data-cat="gut">
+    <article class="card rev" data-cat="gut" id="offer-4" style="--catc:var(--c-gut)">
       <header>
         <div class="rank">4</div>
-        <div>
-          <h3>CleanseSana</h3>
-          <div class="meta"><b>Detox · Gut Health</b> · PDP live, VSL in production · DACH + EU</div>
+        <div class="hgroup">
+          <div class="eyebrow2"><b>CleanseSana</b> · Detox · Gut Health · German-language funnel · DACH + EU</div>
+          <h3>The 4-Mechanism Gut Reboot That Hit Digistore24's Top Offers in 4 Weeks</h3>
+          <p class="subhead">~$2.60 EPC and a top-offer listing in under a month — a fresh "cellular sludge" angle hitting digestion, immunity and fat loss at once.</p>
         </div>
-        <span class="badge">Digistore Top-Offers List in 4 Weeks</span>
+        <img class="bottle" src="img/cleansesana.png" alt="CleanseSana bottle" loading="lazy" onerror="this.style.display='none'">
+        <span class="badge">Top-Offers List in 4 Weeks</span>
       </header>
       <div class="kpis">
         <div class="kpi"><b>$2.60</b><span>EPC (≈ €2.20)</span></div>
-        <div class="kpi"><b class="na">—</b><span>AOV · ask support</span></div>
-        <div class="kpi"><b>60–70%</b><span>RevShare</span></div>
-        <div class="kpi"><b>€120–150</b><span>CPA</span></div>
+        <div class="kpi"><b class="na">— ask support</b><span>AOV</span></div>
+        <div class="kpi"><b>60–75%</b><span>RevShare</span></div>
+        <div class="kpi"><b>€120–150</b><span>CPA · $137–171</span></div>
         <div class="kpi"><b>30+</b><span>Women &amp; Men</span></div>
       </div>
       <div class="body">
-        <p class="pitch">The gut <strong>"Reboot"</strong>: a Stanford-backed, doctor-formulated system targeting <strong>"Toxic Backup Syndrome"</strong> — the cellular sludge blocking digestion, immunity and fat loss. Hit the Digistore24 top-offers list within four weeks of launch. VSL currently in production; the PDP funnel is converting now.</p>
+        <p class="pitch">The gut <strong>"Reboot"</strong>: a doctor-formulated system targeting <strong>"Toxic Backup Syndrome"</strong> — the cellular sludge blocking digestion, immunity and fat loss. Hit the Digistore24 top-offers list within four weeks of launch. VSL currently in production; the PDP funnel is converting now.</p>
         <ul class="hooks">
-          <li>Fast riser — EPC ≈ $2.60 on PDP alone</li>
+          <li>Top-offers list in <b>4 weeks</b></li>
           <li>4-mechanism protocol, not a detox tea</li>
           <li>Stacks with SlimSana / GlucoSana upsells</li>
         </ul>
         <div class="aud">
-          <div><span>Geo</span><b>🇩🇪 🇦🇹 🇨🇭 + German speakers in EU</b></div>
+          <div><span>Geo</span><b><svg class="flag"><use href="#f-de"/></svg> <svg class="flag"><use href="#f-at"/></svg> <svg class="flag"><use href="#f-ch"/></svg> + German speakers in EU</b></div>
           <div><span>Segment</span><b>Men &amp; women 30+, digestion &amp; detox pain</b></div>
         </div>
         <div class="linkrows">
           <div class="lrow"><div class="tag">PDP page</div><div class="url" data-link="https://cleansesana.com/cleansesana-pdp-fe?aff=AFFILIATE&amp;cam=CAMPAIGNKEY"></div><button class="btn small copy" type="button">Copy</button></div>
         </div>
         <div class="resources">
-          <a href="https://www.digistore24.com/signup/665418,665427,665412,665413,665414,665416,665419,665420,665421,665422,665424,665425,665426/" target="_blank" rel="noopener">Digistore24 signup</a>
-          <a href="https://digistore24-affiliate.mydigibiz24.com/cleansesana/index.html" target="_blank" rel="noopener">Offer support page</a>
+          <a href="offers/cleansesana/" style="border-color:var(--acc);color:var(--acc);font-weight:800">Full offer page →</a>
         </div>
         <div class="cardfoot">
           <span class="note">VSL in production — get positioned now, scale when it drops. Materials on request.</span>
@@ -421,31 +580,33 @@
     </article>
 
     <!-- 5 · GlucoSana -->
-    <article class="card" data-cat="blood">
+    <article class="card rev" data-cat="blood" id="offer-5" style="--catc:var(--c-blood)">
       <header>
         <div class="rank">5</div>
-        <div>
-          <h3>GlucoSana</h3>
-          <div class="meta"><b>Blood Sugar</b> · VSL + PDP · DACH + EU</div>
+        <div class="hgroup">
+          <div class="eyebrow2"><b>GlucoSana</b> · Blood Sugar · German-language funnel · DACH + EU</div>
+          <h3>Harvard-Trained Doctor's 17-Year "Glucose Prison" Protocol — Finally Outside His Clinic</h3>
+          <p class="subhead">The successor to our all-time best DACH offer — AOV €177–294, built for high-intent 40+ buyers who've failed mainstream solutions.</p>
         </div>
+        <img class="bottle" src="img/glucosana.png" alt="GlucoSana bottle" loading="lazy" onerror="this.style.display='none'">
         <span class="badge green">GlucoTrust's Successor in DACH</span>
       </header>
       <div class="kpis">
-        <div class="kpi"><b class="na">—</b><span>EPC · ask support</span></div>
+        <div class="kpi"><b class="na">— ask support</b><span>EPC</span></div>
         <div class="kpi"><b>€177–294</b><span>AOV</span></div>
-        <div class="kpi"><b>60–70%</b><span>RevShare</span></div>
-        <div class="kpi"><b>€120–150</b><span>CPA</span></div>
+        <div class="kpi"><b>60–75%</b><span>RevShare</span></div>
+        <div class="kpi"><b>€120–150</b><span>CPA · $137–171</span></div>
         <div class="kpi"><b>40+</b><span>Women &amp; Men</span></div>
       </div>
       <div class="body">
-        <p class="pitch">A Harvard-trained doctor's <strong>17-year private-practice protocol</strong> for "Glucose Prison Syndrome" — 13 pharmaceutical-grade ingredients previously reserved for elite clients, now open to the DACH market. Walking the exact path GlucoTrust German proved: real doctor, real mechanism, aging population, exploding demand.</p>
+        <p class="pitch">A Harvard-trained doctor's <strong>17-year protocol</strong> for "Glucose Prison Syndrome" — 13 pharmaceutical-grade ingredients developed in his US practice, now open to the DACH market. Walking the exact path GlucoTrust German proved: real doctor, real mechanism, aging population, exploding demand.</p>
         <ul class="hooks">
-          <li>In the footsteps of our #1 all-time offer</li>
-          <li>Doctor credibility crushes German skepticism</li>
+          <li>17-year clinical protocol story</li>
+          <li>Doctor credibility beats German skepticism</li>
           <li>Cross-sells into SlimSana / MetaboSana</li>
         </ul>
         <div class="aud">
-          <div><span>Geo</span><b>🇩🇪 🇦🇹 🇨🇭 + German speakers in EU</b></div>
+          <div><span>Geo</span><b><svg class="flag"><use href="#f-de"/></svg> <svg class="flag"><use href="#f-at"/></svg> <svg class="flag"><use href="#f-ch"/></svg> + German speakers in EU</b></div>
           <div><span>Segment</span><b>Men &amp; women 40+, blood-sugar concerns</b></div>
         </div>
         <div class="linkrows">
@@ -453,8 +614,7 @@
           <div class="lrow"><div class="tag">PDP page</div><div class="url" data-link="https://myglucosana.com/glucosana-pdp-fe?aff=AFFILIATE&amp;cam=CAMPAIGNKEY"></div><button class="btn small copy" type="button">Copy</button></div>
         </div>
         <div class="resources">
-          <a href="https://www.digistore24.com/signup/668260,668282,668255,668257,668258,668259,668261,668263,668265,668270,668274,668275,668279/" target="_blank" rel="noopener">Digistore24 signup</a>
-          <a href="https://digistore24-affiliate.mydigibiz24.com/glucosana/index.html" target="_blank" rel="noopener">Offer support page</a>
+          <a href="offers/glucosana/" style="border-color:var(--acc);color:var(--acc);font-weight:800">Full offer page →</a>
         </div>
         <div class="cardfoot">
           <span class="note">Blood-sugar demand in DACH is rising with an aging population — evergreen category.</span>
@@ -464,31 +624,33 @@
     </article>
 
     <!-- 6 · NerveSana -->
-    <article class="card" data-cat="nerve">
+    <article class="card rev" data-cat="nerve" id="offer-6" style="--catc:var(--c-nerve)">
       <header>
         <div class="rank">6</div>
-        <div>
-          <h3>NerveSana</h3>
-          <div class="meta"><b>Nerve Health</b> · VSL + PDP · DACH + EU</div>
+        <div class="hgroup">
+          <div class="eyebrow2"><b>NerveSana</b> · Nerve Health · German-language funnel · DACH + EU</div>
+          <h3>The "Ikaria Anomaly" — Why 90-Year-Old Greeks Have Healthier Nerves Than 40-Year-Old Germans</h3>
+          <p class="subhead">8.3M German neuropathy sufferers, premium pricing, desperate high-intent buyers — a mechanism angle no competitor is running.</p>
         </div>
+        <img class="bottle" src="img/nervesana.png" alt="NerveSana bottle" loading="lazy" onerror="this.style.display='none'">
         <span class="badge plain">High-Intent Premium Buyers</span>
       </header>
       <div class="kpis">
-        <div class="kpi"><b class="na">—</b><span>EPC · ask support</span></div>
+        <div class="kpi"><b class="na">— ask support</b><span>EPC</span></div>
         <div class="kpi"><b>€177–294</b><span>AOV</span></div>
-        <div class="kpi"><b>60–70%</b><span>RevShare</span></div>
-        <div class="kpi"><b>€120–150</b><span>CPA</span></div>
+        <div class="kpi"><b>60–75%</b><span>RevShare</span></div>
+        <div class="kpi"><b>€120–150</b><span>CPA · $137–171</span></div>
         <div class="kpi"><b>8.3M</b><span>DE neuropathy sufferers</span></div>
       </div>
       <div class="body">
         <p class="pitch">Nerve pain is a <strong>silent epidemic</strong>: burning, tingling, can't sleep — they've tried every specialist and nothing worked. The hook: a three-enzyme "destruction cascade" (COX-2, PGE-2, MMP-13) most neurologists miss, and the <strong>Ikaria anomaly</strong> — why 90-year-old Greeks have healthier nerves than 40-year-old Germans. Backed by 32 peer-reviewed studies.</p>
         <ul class="hooks">
-          <li>Desperate, high-intent buyers · easy sell</li>
-          <li>Fresh "Ikaria" story angle for natives</li>
+          <li><b>8.3M</b> sufferers, ~0 competition</li>
+          <li>32 peer-reviewed studies behind the angle</li>
           <li>Facebook 40+ demos convert strongly</li>
         </ul>
         <div class="aud">
-          <div><span>Geo</span><b>🇩🇪 🇦🇹 🇨🇭 + German speakers in EU</b></div>
+          <div><span>Geo</span><b><svg class="flag"><use href="#f-de"/></svg> <svg class="flag"><use href="#f-at"/></svg> <svg class="flag"><use href="#f-ch"/></svg> + German speakers in EU</b></div>
           <div><span>Segment</span><b>Men &amp; women 40+, neuropathy &amp; nerve pain</b></div>
         </div>
         <div class="linkrows">
@@ -496,8 +658,7 @@
           <div class="lrow"><div class="tag">PDP page</div><div class="url" data-link="https://nervesana.com/nervesana-pdp-fe?aff=AFFILIATE&amp;cam=CAMPAIGNKEY"></div><button class="btn small copy" type="button">Copy</button></div>
         </div>
         <div class="resources">
-          <a href="https://www.digistore24.com/signup/670076,670078,670068,670071,670072,670075,670077,670082,670083,670084,670088,670089,670090/" target="_blank" rel="noopener">Digistore24 signup</a>
-          <a href="https://digistore24-affiliate.mydigibiz24.com/nervesana/index.html" target="_blank" rel="noopener">Offer support page</a>
+          <a href="offers/nervesana/" style="border-color:var(--acc);color:var(--acc);font-weight:800">Full offer page →</a>
           <a href="https://drive.google.com/drive/folders/1D1tEBOm49z5KKQXMvGVKLXuSg2zfLNb5" target="_blank" rel="noopener">Materials: VSL script, angles, psychographics</a>
         </div>
         <div class="cardfoot">
@@ -508,81 +669,84 @@
     </article>
 
     <!-- 7 · VigorSana -->
-    <article class="card" data-cat="men">
+    <article class="card rev" data-cat="men" id="offer-7" style="--catc:var(--c-men)">
       <header>
         <div class="rank">7</div>
-        <div>
-          <h3>VigorSana</h3>
-          <div class="meta"><b>Men's Health · Performance</b> · PDP live, VSL in production · DACH + EU</div>
+        <div class="hgroup">
+          <div class="eyebrow2"><b>VigorSana</b> · Men's Health · Performance · German-language funnel · DACH + EU</div>
+          <h3>The "Bio-Energetic Leak" Quietly Draining Men Over 40 — and the 4-Phase Fix</h3>
+          <p class="subhead">A private, doctor-free solution for men too embarrassed to ask — 60-day money-back guarantee removes purchase friction.</p>
         </div>
-        <span class="badge plain">180-Day Empty-Bottle Guarantee</span>
+        <img class="bottle" src="img/vigorsana.png" alt="VigorSana bottle" loading="lazy" onerror="this.style.display='none'">
+        <span class="badge plain">60-Day Money-Back Guarantee</span>
       </header>
       <div class="kpis">
-        <div class="kpi"><b class="na">—</b><span>EPC · ask support</span></div>
+        <div class="kpi"><b class="na">— ask support</b><span>EPC</span></div>
         <div class="kpi"><b>€177–294</b><span>AOV</span></div>
-        <div class="kpi"><b>60–70%</b><span>RevShare</span></div>
-        <div class="kpi"><b>€120–150</b><span>CPA</span></div>
+        <div class="kpi"><b>60–75%</b><span>RevShare</span></div>
+        <div class="kpi"><b>€120–150</b><span>CPA · $137–171</span></div>
         <div class="kpi"><b>40–65</b><span>Men</span></div>
       </div>
       <div class="body">
         <p class="pitch">Men 40+ want their edge back — energy, performance, confidence — but are <strong>too embarrassed to see a doctor</strong>. A private solution with instant appeal: the "Bio-Energetic Leak" mechanism and a 4-phase cellular reactivation protocol, backed by clinical studies incl. the <em>Journal of Sex &amp; Marital Therapy</em> (92.5% success rate). No blue-pill positioning.</p>
         <ul class="hooks">
-          <li>Vanity + desperation + privacy = conversions</li>
+          <li><b>60-day</b> guarantee = low refunds</li>
           <li>Fresh "starved motor" angle vs. tired T-boosters</li>
-          <li>180-day guarantee keeps refunds low</li>
+          <li>Privacy + desperation = conversions</li>
         </ul>
         <div class="aud">
-          <div><span>Geo</span><b>🇩🇪 🇦🇹 🇨🇭 + German speakers in EU</b></div>
+          <div><span>Geo</span><b><svg class="flag"><use href="#f-de"/></svg> <svg class="flag"><use href="#f-at"/></svg> <svg class="flag"><use href="#f-ch"/></svg> + German speakers in EU</b></div>
           <div><span>Segment</span><b>Men 40–65, energy &amp; performance loss</b></div>
         </div>
         <div class="linkrows">
+          <div class="lrow"><div class="tag">VSL page</div><div class="url" data-link="https://myvigorsana.com/vigorsana-vsl-fe?aff=AFFILIATE&amp;cam=CAMPAIGNKEY"></div><button class="btn small copy" type="button">Copy</button></div>
           <div class="lrow"><div class="tag">PDP page</div><div class="url" data-link="https://myvigorsana.com/vigorsana-pdp-fe?aff=AFFILIATE&amp;cam=CAMPAIGNKEY"></div><button class="btn small copy" type="button">Copy</button></div>
         </div>
         <div class="resources">
-          <a href="https://www.digistore24.com/signup/671288,671299,671283,671284,671286,671287,671290,671291,671292,671294,671295,671296,671298/" target="_blank" rel="noopener">Digistore24 signup</a>
-          <a href="https://digistore24-affiliate.mydigibiz24.com/vigorsana/index.html" target="_blank" rel="noopener">Offer support page</a>
+          <a href="offers/vigorsana/" style="border-color:var(--acc);color:var(--acc);font-weight:800">Full offer page →</a>
         </div>
         <div class="cardfoot">
-          <span class="note">VSL in production — PDP funnel live now. Materials on request.</span>
+          <span class="note">VSL newly live — ask for current stats before scaling. Materials on request.</span>
           <button class="btn small copyall" type="button">Copy this offer's links</button>
         </div>
       </div>
     </article>
 
     <!-- 8 · VitaSana Collection -->
-    <article class="card" data-cat="bundle">
+    <article class="card rev" data-cat="bundle" id="offer-8" style="--catc:var(--c-bundle)">
       <header>
         <div class="rank">8</div>
-        <div>
-          <h3>VitaSana Collection</h3>
-          <div class="meta"><b>8-Product Ecosystem</b> · Looping cross-sell funnel · DACH + EU</div>
+        <div class="hgroup">
+          <div class="eyebrow2"><b>VitaSana Collection</b> · VIP Wellness System · 8 Products · German-language funnel · DACH + EU</div>
+          <h3>The Self-Selecting Funnel That Turns One Sale Into €245+ AOV Automatically</h3>
+          <p class="subhead">Built for email lists — buyers pick their next transformation by their biggest pain point, and you earn 60–75% across the whole VIP Wellness System.</p>
         </div>
+        <img class="bottle" src="img/vitasana-collection.png" alt="VitaSana Collection bottle" loading="lazy" onerror="this.style.display='none'">
         <span class="badge">Lifetime-Customer Machine</span>
       </header>
       <div class="kpis">
-        <div class="kpi"><b class="na">—</b><span>EPC · ask support</span></div>
+        <div class="kpi"><b class="na">— ask support</b><span>EPC</span></div>
         <div class="kpi"><b>€245+</b><span>AOV</span></div>
-        <div class="kpi"><b>60–70%</b><span>RevShare, whole ecosystem</span></div>
+        <div class="kpi"><b>60–75%</b><span>RevShare, whole system</span></div>
         <div class="kpi"><b class="na">ask</b><span>CPA · volume players</span></div>
         <div class="kpi"><b>8</b><span>Products, one funnel</span></div>
       </div>
       <div class="body">
-        <p class="pitch">Dr. Wood's complete <strong>"clinic protocol" ecosystem</strong>: SlimSana, MetaboSana, CleanseSana, CurcumaSana, KetoSana, GlucoSana, NerveSana and VigorSana in one self-selecting funnel. Buyers choose their next transformation based on their own biggest pain point — intelligent cross-sell that feels like personalized medical advice, not a pushy upsell.</p>
+        <p class="pitch">Dr. Wood's complete <strong>"clinic protocol" VIP Wellness System</strong>: SlimSana, MetaboSana, CleanseSana, CurcumaSana, KetoSana, GlucoSana, NerveSana and VigorSana in one self-selecting funnel. <strong>One doctor. Nine offers. Total consistency.</strong> Buyers choose their next transformation based on their own biggest pain point — intelligent cross-sell that feels like personalized medical advice.</p>
         <ul class="hooks">
+          <li><b>8</b> products, one commission stream</li>
           <li>One link sells the whole portfolio</li>
-          <li>Commission on the entire ecosystem</li>
           <li>Built for list owners &amp; content traffic</li>
         </ul>
         <div class="aud">
-          <div><span>Geo</span><b>🇩🇪 🇦🇹 🇨🇭 + German speakers in EU</b></div>
+          <div><span>Geo</span><b><svg class="flag"><use href="#f-de"/></svg> <svg class="flag"><use href="#f-at"/></svg> <svg class="flag"><use href="#f-ch"/></svg> + German speakers in EU</b></div>
           <div><span>Segment</span><b>Men &amp; women 30+, multi-symptom health buyers</b></div>
         </div>
         <div class="linkrows">
           <div class="lrow"><div class="tag">PDP page</div><div class="url" data-link="https://pronutraquest.com/8-products-pdp?aff=AFFILIATE&amp;cam=CAMPAIGNKEY"></div><button class="btn small copy" type="button">Copy</button></div>
         </div>
         <div class="resources">
-          <a href="https://www.digistore24.com/signup/663520,663522,663523,663524,663527,663529,663530,663531,663533,663534,663535,663536,663539,663540,663541,663542,663545,663546,663547,663548,663550,663552,663553,663554,663556,663558,663559,663560,663563,663564,663566,663568,663571,663572,663573/" target="_blank" rel="noopener">Digistore24 signup</a>
-          <a href="https://digistore24-affiliate.mydigibiz24.com/vitasana-collections/index.html" target="_blank" rel="noopener">Offer support page</a>
+          <a href="offers/vitasana-collection/" style="border-color:var(--acc);color:var(--acc);font-weight:800">Full offer page →</a>
         </div>
         <div class="cardfoot">
           <span class="note">VSL in production. Strongest play for email lists: every send can hit a different pain point.</span>
@@ -592,31 +756,33 @@
     </article>
 
     <!-- 9 · GlucoTrust German -->
-    <article class="card flagship" data-cat="blood">
+    <article class="card flagship rev" data-cat="blood" id="offer-9" style="--catc:var(--c-blood)">
       <header>
         <div class="rank">9</div>
-        <div>
-          <h3>GlucoTrust German</h3>
-          <div class="meta"><b>Blood Sugar</b> · 5 funnel formats · EU + CH, LI, NO, IS</div>
+        <div class="hgroup">
+          <div class="eyebrow2"><b>GlucoTrust German</b> · Blood Sugar · Flagship · 5 funnel formats · EU + CH, LI, NO, IS</div>
+          <h3>Clickbank's All-Time Best Blood-Sugar Offer — Now Unlocked for 110M German Speakers</h3>
+          <p class="subhead">The proven flagship, localized for DACH — $2.45 EPC, $231 AOV, 1.82% CVR, five ready funnel formats, swipes refreshed continuously.</p>
         </div>
-        <span class="badge">All-Time Best Performing Blood-Sugar Offer</span>
+        <img class="bottle" src="img/glucotrust-german.png" alt="GlucoTrust German bottle" loading="lazy" onerror="this.style.display='none'">
+        <span class="badge">🏆 All-Time Best Blood-Sugar Offer</span>
       </header>
       <div class="kpis">
         <div class="kpi"><b>$2.45</b><span>EPC (min $2.30)</span></div>
         <div class="kpi"><b>$231</b><span>AOV</span></div>
         <div class="kpi"><b>1.82%</b><span>CVR</span></div>
-        <div class="kpi"><b>60–70%</b><span>RevShare</span></div>
-        <div class="kpi"><b>€120–150</b><span>CPA</span></div>
+        <div class="kpi"><b>60–75%</b><span>RevShare</span></div>
+        <div class="kpi"><b>€120–150</b><span>CPA · $137–171</span></div>
       </div>
       <div class="body">
-        <p class="pitch">The offer that built this portfolio: <strong>the all-time best performing blood-sugar offer on Clickbank — now localized for German-speaking Europe</strong>. Five funnel formats (VSL, TSL, eCom, long-form PDP, shop portal), continuously updated email swipes, and years of optimization behind every page.</p>
+        <p class="pitch">The offer that built this portfolio: <strong>the all-time best performing blood-sugar offer on Clickbank — now localized in German on Digistore24</strong>. Five funnel formats (VSL, TSL, eCom, long-form PDP, shop portal), continuously updated email swipes, and years of optimization behind every page.</p>
         <ul class="hooks">
-          <li>Proven internationally, localized for DACH</li>
+          <li><b>5</b> funnel formats + live swipe library</li>
+          <li>Proven internationally, fresh in DACH</li>
           <li>Pick the funnel that fits your traffic</li>
-          <li>Swipe library, continually updated</li>
         </ul>
         <div class="aud">
-          <div><span>Geo</span><b>EU-wide + 🇨🇭 CH, LI, NO, IS · German language</b></div>
+          <div><span>Geo</span><b><svg class="flag"><use href="#f-eu"/></svg> EU-wide + <svg class="flag"><use href="#f-ch"/></svg> <svg class="flag"><use href="#f-li"/></svg> <svg class="flag"><use href="#f-no"/></svg> <svg class="flag"><use href="#f-is"/></svg> · German language</b></div>
           <div><span>Segment</span><b>Men &amp; women 40+, blood sugar &amp; weight</b></div>
         </div>
         <div class="linkrows">
@@ -627,8 +793,7 @@
           <div class="lrow"><div class="tag">Shop portal</div><div class="url" data-link="https://pronutraquest.com/home?aff=AFFILIATE&amp;cam=CAMPAIGNKEY"></div><button class="btn small copy" type="button">Copy</button></div>
         </div>
         <div class="resources">
-          <a href="https://www.digistore24.com/signup/600545,600901,600906,600912,600880,600883,600887,600885,608967,600888,600889,600892,600894,600896,600899,600928,600940,600941/" target="_blank" rel="noopener">Digistore24 signup</a>
-          <a href="https://digistore24-affiliate.mydigibiz24.com/glucotrust/index.html" target="_blank" rel="noopener">Offer support page</a>
+          <a href="offers/glucotrust-german/" style="border-color:var(--acc);color:var(--acc);font-weight:800">Full offer page →</a>
           <a href="https://pronutraquest.com/affiliates-ds24-irl" target="_blank" rel="noopener">Email swipes — continually updated</a>
           <a href="https://drive.google.com/drive/folders/1GMEaoI6qlP6RWRkgIXc_z_IFSZJEu9KH" target="_blank" rel="noopener">Materials: angles &amp; psychographics</a>
         </div>
@@ -641,19 +806,74 @@
 
   </div>
 
-  <p class="srcnote" style="margin-top:18px">Pipeline: <b style="color:var(--mut)">MindSana — Mind Matrix Formula</b> is in preparation. Approved affiliates hear about new VSLs first — <a href="mailto:support@pronutraquest.de">get on the early list</a>.</p>
+  <div class="pipeline rev" id="pipeline">
+    <div class="pt">
+      <div class="eyebrow" style="color:var(--gold)">In Production — Two New Offers</div>
+      <h3>Coming next: be first when the funnels go live</h3>
+      <ul>
+        <li><b>HeroSana Caliber Gummies</b> — ED / men&rsquo;s-health gummies · VSL &amp; TSL in preparation</li>
+        <li><b>MindSana — Mind Matrix Formula</b> · VSL &amp; TSL in preparation</li>
+      </ul>
+    </div>
+    <div class="pa">
+      <a class="btn primary" href="mailto:affiliates@pronutraquest.com?subject=Early%20List%20%E2%80%94%20HeroSana%20Caliber%20Gummies%20%2B%20MindSana&amp;body=Digistore24%20ID%3A%0ATraffic%20sources%3A%0APlease%20notify%20me%20when%20the%20VSL%2FTSL%20go%20live.">Get on the early list →</a>
+      <p class="note">We email the early list the day the VSL/TSL are ready — before the offers appear on this page.</p>
+    </div>
+  </div>
 
-  <!-- why promote -->
+  <!-- why DACH -->
   <section class="block" id="why">
-    <div class="eyebrow">Why This Portfolio</div>
-    <h2>Six reasons media buyers stay once they test us</h2>
-    <div class="grid3">
-      <div class="tile"><h4>A proven team, not a first launch</h4><p>The same team behind GlucoTrust's 8-figure German run built every funnel here — one market, mastered, then compounded across nine offers.</p></div>
-      <div class="tile"><h4>DACH traffic is 40–60% cheaper</h4><p>You're not fighting 10,000 affiliates over saturated US angles. German CPMs are lower, and buyers spend more per transaction.</p></div>
-      <div class="tile"><h4>Deep funnels, fat AOV</h4><p>€177–294 AOV on core offers, €245+ on the ecosystem. Multi-step upsell paths mean your click earns through the whole funnel at 60–70%.</p></div>
-      <div class="tile"><h4>Real doctor, real credibility</h4><p>Harvard-trained Dr. Eric Wood fronts the portfolio — five books, university teaching, national TV. German skeptics trust credentials, and it shows in CVR.</p></div>
-      <div class="tile"><h4>Low refunds by design</h4><p>60-day guarantees (180-day on VigorSana), pharma-grade formulation and honest mechanisms keep refund rates low — you keep what you earn.</p></div>
-      <div class="tile"><h4>An ecosystem, not one-shot offers</h4><p>Every buyer can cross into SlimSana, GlucoSana, MetaboSana and five more. Your traffic compounds instead of expiring after one sale.</p></div>
+    <div class="eyebrow">Why DACH — The Last Uncrowded Market</div>
+    <h2>Seven reasons this market beats your US numbers</h2>
+    <p class="lede">Not a pitch — a market argument. Every point below is why the same operator playbook produces better math in German-speaking Europe right now.</p>
+    <div class="epis">
+      <div class="epi rev"><h4>The Traffic-Arbitrage Inversion</h4><p>Same ad account, same funnel logic, 40–60% lower CPMs. Creative math that stopped working in the US suddenly clears again — without touching your playbook.</p></div>
+      <div class="epi rev"><h4>The Saturation Asymmetry</h4><p>Angles are consumable. The US burned yours; DACH never saw them. Your swipe file isn't dead — it's an asset in a market that hasn't heard the story yet.</p></div>
+      <div class="epi rev"><h4>The Market-Size Miscalculation</h4><p>"Small market" is the wrong read. One-third of the US is not a niche — it's the US of 2019 with 2026 spending power and a fraction of the buyers' ad fatigue.</p></div>
+      <div class="epi rev"><h4>The Doctor-Trust Differential</h4><p>German buyers convert on credentials, not hype. The whole portfolio is fronted by one real, verifiable doctor — Dr. Eric Wood. One doctor. Nine offers. Total consistency.</p></div>
+      <div class="epi rev"><h4>The Refund Silent Killer — Solved</h4><p>DACH buyers refund less. The CPA math your dashboard shows is the CPA math you keep — commission clawbacks stop eating your margin quietly.</p></div>
+      <div class="epi rev"><h4>The Deep-Funnel Multiplier</h4><p>€177–294 AOV on core offers, €245+ on the VIP Wellness System — and you earn 60–75% through the entire funnel, not front-end scraps.</p></div>
+      <div class="epi rev"><h4>The Infrastructure Shortcut</h4><p>Market entry usually costs months: translation, funnels, compliance, support. Here it's already built and converting. You bring traffic — everything else is running.</p></div>
+    </div>
+    <p class="proofline rev"><b>The thesis is proven:</b> our team took GlucoTrust — the all-time best performing blood-sugar offer on Clickbank — and turned its German edition into the market-defining blood-sugar offer for DACH, then compounded that exact playbook across nine offers. You’re not the experiment. You’re the scale phase.</p>
+    <div class="quoterow rev">
+      <span>"<b>Angles that died in the US are alive in Germany.</b>"</span>
+      <span>"A hundred million people who haven't seen your angle."</span>
+      <span>"The language barrier is the moat."</span>
+    </div>
+  </section>
+
+  <!-- for volume operators -->
+  <section class="block" id="operators">
+    <div class="eyebrow">For Volume Operators</div>
+    <h2>Built for how you actually run</h2>
+    <p class="lede">If you ship 50–200 creatives a day, control your own pre-sell, and optimize on fast signals — this program was structured around your operating system, not against it.</p>
+    <div class="opsgrid">
+      <div class="tile rev"><h4>Proof, not promises</h4><p>Ask for any offer's live marketplace numbers and get them with explicit time windows — auditable stats, not screenshots. If a number isn't on this page, "ask support" means we show you the real one.</p></div>
+      <div class="tile rev"><h4>Creative sovereignty</h4><p>Authorized custom hooks and VSL intros for qualified partners, plus a partner-only angle map: what's working, what's burned, what we're testing next. You build the edge; we supply the engine.</p></div>
+      <div class="tile rev"><h4>Funnel control</h4><p>Pre-sell-first explicitly supported: quiz → checkout, listicle → checkout, advertorial → checkout, or VSL-first. We help you keep message match instead of forcing generic paths.</p></div>
+      <div class="tile rev"><h4>AI fragment kit</h4><p>Per-offer materials structured for your creative stack: mechanism bullets, avatar variants, objection stacks with compliant rebuttals, and compliance red lines — inputs, not PDFs.</p></div>
+      <div class="tile rev"><h4>Attribution hardening</h4><p>S2S postback and Digistore24 tracking-pixel support, campaign-key conventions per traffic source, and delayed-CTA handling on VSL pages. Lost attribution is a scaling killer — we treat it like one.</p></div>
+      <div class="tile rev"><h4>Partner ops</h4><p>A dedicated partner contact with a response SLA, a 14-day launch sprint plan, an escalation path for urgent tracking/checkout issues, and change-logged funnels — no silent edits under your traffic.</p></div>
+    </div>
+
+    <div class="ladder rev" role="list" aria-label="Deal tiers">
+      <div class="rung" role="listitem"><span>Start</span><b>60%</b><p>RevShare through the entire funnel, from your first sale. No approval theater.</p></div>
+      <div class="rung" role="listitem"><span>Volume</span><b>→ 75%</b><p>Prove your traffic and the RevShare rises. Volume gets rewarded, every time.</p></div>
+      <div class="rung hot" role="listitem"><span>Operators</span><b>CPA €120–150</b><p>Currently $137–171. Or hybrid deals for qualified partners — structured per traffic source and quality.</p></div>
+    </div>
+
+    <div class="opform rev" id="apply">
+      <h3>Volume operator application</h3>
+      <p class="sub">Four fields. If it's a fit, you get the asset pack, current EPCs and a launch sprint plan — from a real human, fast.</p>
+      <div class="row">
+        <div><label for="opTraffic">Traffic sources</label><input id="opTraffic" placeholder="e.g. Meta, native, YouTube, email list"></div>
+        <div><label for="opSpend">Monthly spend range</label><select id="opSpend"><option>Under €10k</option><option>€10–50k</option><option>€50–150k</option><option>€150k+</option></select></div>
+        <div><label for="opFunnel">Preferred funnel style</label><select id="opFunnel"><option>VSL-first</option><option>Pre-sell first (quiz / listicle / advertorial)</option><option>Direct / eCom page</option><option>Mixed</option></select></div>
+        <div><label for="opModel">Optimization model</label><select id="opModel"><option>Purchase events</option><option>IC / micro-events</option><option>Blended</option></select></div>
+      </div>
+      <button class="btn primary" id="opSend" type="button">Apply as a volume operator</button>
+      <p class="plain">Opens your mail app with the details prefilled — or write directly to <a href="mailto:affiliates@pronutraquest.com">affiliates@pronutraquest.com</a></p>
     </div>
   </section>
 
@@ -661,9 +881,9 @@
   <section class="block" id="intel">
     <div class="eyebrow">Affiliate Services</div>
     <h2>We don't just hand you links. We debug your traffic.</h2>
-    <div class="intel">
+    <div class="intel rev">
       <h3>VSL Traffic Intelligence — Vidalytics &amp; VTurb testing support</h3>
-      <p class="pitch" style="max-width:80ch">Our funnels run on player-level video analytics. For active affiliates we read your campaign the way we read our own: where viewers drop, where buyers lean in, and whether your ad's psychology matches the VSL's opening state. Identical VSLs convert at 2.3% for one buyer and 0.6% for another — the difference is almost never "traffic quality," it's ad-to-VSL alignment. We show you where yours breaks.</p>
+      <p class="pitch">Our funnels run on player-level video analytics. For active affiliates we read your campaign the way we read our own: where viewers drop, where buyers lean in, and whether your ad's psychology matches the VSL's opening state. Identical VSLs convert at 2.3% for one buyer and 0.6% for another — the difference is almost never "traffic quality," it's ad-to-VSL alignment. We show you where yours breaks.</p>
       <ul>
         <li>VSL KPI benchmarking against health-vertical norms (hook hold, minute-3 retention, CTA clicks)</li>
         <li>Ad-angle → VSL-lead alignment review before you spend, not after</li>
@@ -672,7 +892,7 @@
         <li>Split-test guidance: which of our funnel formats fits your channel</li>
         <li>Priority support hotline for high-volume campaigns</li>
       </ul>
-      <p class="guarantee"><b>Performance commitment:</b> qualified affiliates who follow our traffic guidance and don't reach a 1.3% conversion rate within 30 days get 1-on-1 campaign optimization with our specialist at no charge — until the campaign is profitable. Ask support whether your volume qualifies.</p>
+      <p class="guarantee"><b>Performance commitment:</b> qualified affiliates who follow our traffic guidance get hands-on 1-on-1 campaign optimization from our specialist until the campaign performs — at no charge. Ask support whether your volume qualifies.</p>
     </div>
   </section>
 
@@ -682,27 +902,27 @@
     <h2>Where the orders actually come from</h2>
     <p class="lede">German-language funnels sell far beyond Germany. Roughly 69% of orders come from DACH — the rest is German speakers across the EU. Geo-target accordingly.</p>
     <div class="market">
-      <div class="tablewrap">
-        <table>
+      <div class="tablewrap rev">
+        <table class="mkt">
           <thead><tr><th>Country</th><th class="barcell">Share of sales</th><th style="text-align:right">%</th></tr></thead>
           <tbody>
-            <tr><td>🇩🇪 Germany</td><td class="barcell"><div class="bar" style="width:100%"></div></td><td class="num">38.9</td></tr>
-            <tr><td>🇨🇭 Switzerland</td><td class="barcell"><div class="bar" style="width:44%"></div></td><td class="num">17.2</td></tr>
-            <tr><td>🇦🇹 Austria</td><td class="barcell"><div class="bar" style="width:33%"></div></td><td class="num">12.8</td></tr>
-            <tr><td>🇪🇸 Spain</td><td class="barcell"><div class="bar" style="width:22%"></div></td><td class="num">8.7</td></tr>
-            <tr><td>🇱🇺 Luxembourg</td><td class="barcell"><div class="bar" style="width:12%"></div></td><td class="num">4.6</td></tr>
-            <tr><td>🇮🇹 Italy</td><td class="barcell"><div class="bar" style="width:9%"></div></td><td class="num">3.7</td></tr>
-            <tr><td>🇭🇺 Hungary</td><td class="barcell"><div class="bar" style="width:5%"></div></td><td class="num">2.1</td></tr>
-            <tr><td>🇩🇰 Denmark</td><td class="barcell"><div class="bar" style="width:5%"></div></td><td class="num">1.8</td></tr>
+            <tr><td><svg class="flag sm"><use href="#f-de"/></svg> Germany</td><td class="barcell"><div class="bar" style="width:100%"></div></td><td class="num">38.9</td></tr>
+            <tr><td><svg class="flag sm"><use href="#f-ch"/></svg> Switzerland</td><td class="barcell"><div class="bar" style="width:44%"></div></td><td class="num">17.2</td></tr>
+            <tr><td><svg class="flag sm"><use href="#f-at"/></svg> Austria</td><td class="barcell"><div class="bar" style="width:33%"></div></td><td class="num">12.8</td></tr>
+            <tr><td><svg class="flag sm"><use href="#f-es"/></svg> Spain</td><td class="barcell"><div class="bar" style="width:22%"></div></td><td class="num">8.7</td></tr>
+            <tr><td><svg class="flag sm"><use href="#f-lu"/></svg> Luxembourg</td><td class="barcell"><div class="bar" style="width:12%"></div></td><td class="num">4.6</td></tr>
+            <tr><td><svg class="flag sm"><use href="#f-it"/></svg> Italy</td><td class="barcell"><div class="bar" style="width:9%"></div></td><td class="num">3.7</td></tr>
+            <tr><td><svg class="flag sm"><use href="#f-hu"/></svg> Hungary</td><td class="barcell"><div class="bar" style="width:5%"></div></td><td class="num">2.1</td></tr>
+            <tr><td><svg class="flag sm"><use href="#f-dk"/></svg> Denmark</td><td class="barcell"><div class="bar" style="width:5%"></div></td><td class="num">1.8</td></tr>
             <tr><td colspan="2" style="color:var(--dim)">18 more countries</td><td class="num">10.2</td></tr>
           </tbody>
         </table>
       </div>
-      <div class="shipbox">
-        <h4 style="margin:0 0 8px;font-size:15.5px">Shipping coverage</h4>
+      <div class="shipbox rev">
+        <h4>Shipping coverage</h4>
         <p>We ship to the <b>entire EU</b> plus <b>Switzerland, Liechtenstein, Norway and Iceland</b> — 31 countries. Don't geo-restrict to Germany: Swiss buyers alone are 17% of sales with premium purchasing power.</p>
         <p style="margin-top:10px"><b>Targeting tip:</b> set language to German, geo to DE + AT + CH first, then expand to LU, ES (expat communities), IT and DK once your funnel proves out.</p>
-        <p style="margin-top:10px;font-size:12.5px;color:var(--dim)">Source: ProNutraQuest sales data across all offers, 2026.</p>
+        <p style="margin-top:10px;font-size:14px;color:var(--dim)">Source: ProNutraQuest sales data across all offers, 2026.</p>
       </div>
     </div>
   </section>
@@ -712,9 +932,9 @@
     <div class="eyebrow">Getting Started</div>
     <h2>From zero to first commission in three steps</h2>
     <div class="grid3">
-      <div class="tile"><span class="n">1</span><h4>Create your free Digistore24 account</h4><p>Digistore24 is Europe's leading reseller platform — it handles tracking, payouts, VAT and compliance. Use the signup link on any offer card above; approval is fast.</p></div>
-      <div class="tile"><span class="n">2</span><h4>Generate your links on this page</h4><p>Enter your Digistore24 ID (and an optional campaign key per traffic source) in the panel at the top. Every promo link on this page personalizes instantly — copy and go.</p></div>
-      <div class="tile"><span class="n">3</span><h4>Tell us where you'll run</h4><p>Email <a href="mailto:support@pronutraquest.de">support@pronutraquest.de</a> with your traffic sources. We'll match you to the right funnel format, send current EPCs, unlock swipes — and talk CPA once you show volume.</p></div>
+      <div class="tile rev"><span class="n">1</span><h4>Create your free Digistore24 account</h4><p>Digistore24 is Europe's leading reseller platform — it handles tracking, payouts, VAT and compliance. Register free at <a href="https://www.digistore24.com" target="_blank" rel="noopener">digistore24.com</a> — one account covers every offer on this page.</p></div>
+      <div class="tile rev"><span class="n">2</span><h4>Generate your links on this page</h4><p>Enter your Digistore24 ID (and an optional campaign key per traffic source) in the panel at the top. Every promo link on this page personalizes instantly — copy and go.</p></div>
+      <div class="tile rev"><span class="n">3</span><h4>Tell us where you'll run</h4><p>Email <a href="mailto:affiliates@pronutraquest.com">affiliates@pronutraquest.com</a> with your traffic sources. We'll match you to the right funnel format, send current EPCs, unlock swipes — and talk CPA once you show volume.</p></div>
     </div>
   </section>
 
@@ -731,31 +951,39 @@
       <li><b>Send traffic to our funnels.</b> No direct-linking to checkout that bypasses the offer presentation, and no selling on Amazon, eBay or other retail platforms.</li>
       <li><b>Disclose your affiliation.</b> FTC/consumer-law compliant disclosure on review pages, ads and emails, in the local language of your traffic.</li>
       <li><b>Respect the customer.</b> No "scam"-style negative advertising against our or competitor products, and no retargeting scraped from our pixels.</li>
-      <li><b>When unsure, ask first.</b> One email to <a href="mailto:support@pronutraquest.de">support</a> beats a burned account. Gray-area channels (Telegram blasts, incentivized traffic, adult) need written approval.</li>
+      <li><b>When unsure, ask first.</b> One email to <a href="mailto:affiliates@pronutraquest.com">support</a> beats a burned account. Gray-area channels (Telegram blasts, incentivized traffic, adult) need written approval.</li>
     </ol>
   </section>
 
   <!-- CTA -->
-  <div class="cta">
+  <div class="cta rev">
     <div class="eyebrow">Commission Bumps &amp; CPA</div>
     <h2>Volume gets rewarded. Every time.</h2>
-    <p>Everyone starts at 60% RevShare through the entire funnel. Prove your traffic and we raise you toward 70% — or move you to CPA between €120 and €150 per sale, depending on volume and traffic quality. Super-affiliates get custom VSL intros, priority payouts and direct access to our media-buying team.</p>
+    <p>Everyone starts at 60% RevShare through the entire funnel. Prove your traffic and we raise you toward 75% — or move you to CPA of €120–150 per sale (currently $137–171), depending on volume and traffic quality. Super-affiliates get custom VSL intros, priority payouts and direct access to our media-buying team.</p>
     <div class="row">
-      <a class="btn primary" href="mailto:support@pronutraquest.de?subject=Affiliate%20Application%20—%20ProNutraQuest&amp;body=Digistore24%20ID%3A%0ATraffic%20sources%3A%0AMonthly%20volume%3A%0AOffers%20I%20want%20to%20run%3A">Apply for higher commissions</a>
-      <a class="btn" href="mailto:support@pronutraquest.de?subject=Vidalytics%20Traffic%20Analysis%20Request">Request a traffic analysis</a>
+      <a class="btn primary" href="#apply">Apply as a volume operator</a>
+      <a class="btn" href="mailto:affiliates@pronutraquest.com?subject=Vidalytics%20Traffic%20Analysis%20Request">Request a traffic analysis</a>
     </div>
+    <p class="plain" style="margin-top:14px">Prefer email? Write directly to <a href="mailto:affiliates@pronutraquest.com">affiliates@pronutraquest.com</a></p>
   </div>
 
 </main>
 
 <footer>
   <div class="wrap">
-    <div><b>ProNutraQuest Affiliate Hub</b> · run by the ProNutraQuest partner team · <a href="mailto:support@pronutraquest.de">support@pronutraquest.de</a></div>
-    <div>EPC, AOV, CVR and CPA figures are historical network averages from our Digistore24 campaigns, updated 14 July 2026. They are not a promise of individual results. Commissions and CPA terms are confirmed individually and may change per traffic source. All promotion must comply with the rules above and applicable law. These products are dietary supplements and are not intended to diagnose, treat, cure or prevent any disease.</div>
+    <div><b>ProNutraQuest Affiliate Hub</b> · v4 · run by the ProNutraQuest partner team · <a href="mailto:affiliates@pronutraquest.com">affiliates@pronutraquest.com</a></div>
+    <nav class="legallinks" aria-label="Legal">
+      <a href="https://pronutraquest.com/impressum-ds24-aff" target="_blank" rel="noopener">Legal Notice (Impressum)</a>
+      <a href="https://pronutraquest.com/datenschutz-ds24-aff" target="_blank" rel="noopener">Privacy Policy (Datenschutz)</a>
+      <a href="https://pronutraquest.com/disclaimer-ds24-aff" target="_blank" rel="noopener">Disclaimer</a>
+      <a href="https://pronutraquest.com/contact-affiliates-ds24" target="_blank" rel="noopener">Contact (Kontakt)</a>
+    </nav>
+    <div>EPC, AOV, CVR and CPA figures are historical network averages from our Digistore24 campaigns, updated 15 July 2026. They are not a promise of individual results. Commissions and CPA terms are confirmed individually and may change per traffic source. All promotion must comply with the rules above and applicable law. These products are dietary supplements and are not intended to diagnose, treat, cure or prevent any disease.</div>
   </div>
 </footer>
 
 <div class="toast" id="toast" role="status" aria-live="polite">Copied</div>
+<div class="fab" id="fab"><button id="fabBtn" type="button">↑ Your links</button></div>
 
 <script>
 (function(){
@@ -768,20 +996,16 @@
   function clean(v){return (v||'').replace(/[^A-Za-z0-9_\-\.]/g,'').slice(0,64);}
   function aff(){return clean(affMain.value)||'AFFILIATE';}
   function cam(){return clean(camMain.value)||'CAMPAIGNKEY';}
-
   function buildLink(t){return t.replace('AFFILIATE',aff()).replace('CAMPAIGNKEY',cam());}
 
   function render(){
     document.querySelectorAll('.url').forEach(function(el){
       var t=el.getAttribute('data-link');
-      var a=aff(), c=cam();
-      var html=t.replace('AFFILIATE','<span class="aff">'+a+'</span>')
-                .replace('CAMPAIGNKEY','<span class="cam">'+c+'</span>');
-      el.innerHTML=html;
+      el.innerHTML=t.replace('AFFILIATE','<span class="aff">'+aff()+'</span>')
+                    .replace('CAMPAIGNKEY','<span class="cam">'+cam()+'</span>');
     });
     try{localStorage.setItem('pnq_aff',affMain.value);localStorage.setItem('pnq_cam',camMain.value);}catch(e){}
   }
-
   function sync(src){
     if(src===affTop && affMain.value!==affTop.value) affMain.value=affTop.value;
     if(src===affMain && affTop.value!==affMain.value) affTop.value=affMain.value;
@@ -790,7 +1014,6 @@
   affTop.addEventListener('input',function(){sync(affTop);});
   affMain.addEventListener('input',function(){sync(affMain);});
   camMain.addEventListener('input',render);
-
   try{
     var sa=localStorage.getItem('pnq_aff'),sc=localStorage.getItem('pnq_cam');
     if(sa){affMain.value=sa;affTop.value=sa;}
@@ -798,8 +1021,7 @@
   }catch(e){}
 
   function showToast(msg){
-    toast.textContent=msg;
-    toast.classList.add('show');
+    toast.textContent=msg;toast.classList.add('show');
     if(toastTimer)clearTimeout(toastTimer);
     toastTimer=setTimeout(function(){toast.classList.remove('show');},1600);
   }
@@ -819,15 +1041,13 @@
 
   document.querySelectorAll('.lrow .copy').forEach(function(btn){
     btn.addEventListener('click',function(){
-      var url=buildLink(btn.parentElement.querySelector('.url').getAttribute('data-link'));
-      copyText(url,'Link copied');
+      copyText(buildLink(btn.parentElement.querySelector('.url').getAttribute('data-link')),'Link copied');
     });
   });
-
   document.querySelectorAll('.copyall').forEach(function(btn){
     btn.addEventListener('click',function(){
       var card=btn.closest('.card');
-      var name=card.querySelector('h3').textContent;
+      var name=card.querySelector('.eyebrow2 b').textContent;
       var lines=[name+' — promo links ('+aff()+')'];
       card.querySelectorAll('.lrow').forEach(function(r){
         lines.push(r.querySelector('.tag').textContent.trim()+': '+buildLink(r.querySelector('.url').getAttribute('data-link')));
@@ -835,11 +1055,10 @@
       copyText(lines.join('\n'),name+' links copied');
     });
   });
-
   function copyEverything(){
     var lines=['ProNutraQuest Affiliate Hub — all promo links ('+aff()+')',''];
     document.querySelectorAll('.card').forEach(function(card){
-      lines.push(card.querySelector('.rank').textContent.trim()+'. '+card.querySelector('h3').textContent);
+      lines.push(card.querySelector('.rank').textContent.trim()+'. '+card.querySelector('.eyebrow2 b').textContent);
       card.querySelectorAll('.lrow').forEach(function(r){
         lines.push('  '+r.querySelector('.tag').textContent.trim()+': '+buildLink(r.querySelector('.url').getAttribute('data-link')));
       });
@@ -850,6 +1069,7 @@
   document.getElementById('copyAllTop').addEventListener('click',copyEverything);
   document.getElementById('copyAllMain').addEventListener('click',copyEverything);
 
+  /* filters */
   var chips=document.querySelectorAll('.chip'),cards=document.querySelectorAll('.card'),
       countLabel=document.getElementById('countLabel');
   chips.forEach(function(chip){
@@ -864,6 +1084,68 @@
       });
       countLabel.textContent='Showing '+n+' of 9';
     });
+  });
+
+  /* theme toggle */
+  var themeBtn=document.getElementById('themeBtn');
+  function applyTheme(t){
+    if(t){document.documentElement.setAttribute('data-theme',t);}
+    else{document.documentElement.removeAttribute('data-theme');}
+    try{t?localStorage.setItem('pnq_theme',t):localStorage.removeItem('pnq_theme');}catch(e){}
+  }
+  try{var st=localStorage.getItem('pnq_theme'); if(st)applyTheme(st);}catch(e){}
+  themeBtn.addEventListener('click',function(){
+    var cur=document.documentElement.getAttribute('data-theme');
+    applyTheme(cur==='dark'?'light':'dark');
+  });
+
+  /* scrollspy for offer rail */
+  var pills=[].slice.call(document.querySelectorAll('.rpill'));
+  var map={};
+  pills.forEach(function(p){map[p.getAttribute('href').slice(1)]=p;});
+  if('IntersectionObserver' in window){
+    var spy=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          pills.forEach(function(p){p.classList.remove('active');});
+          var p=map[en.target.id]; if(p){p.classList.add('active');p.scrollIntoView({block:'nearest',inline:'nearest'});}
+        }
+      });
+    },{rootMargin:'-35% 0px -55% 0px'});
+    document.querySelectorAll('.card[id]').forEach(function(c){spy.observe(c);});
+
+    /* reveal */
+    var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if(reduce){document.querySelectorAll('.rev').forEach(function(el){el.classList.add('in');});}
+    else{
+      var rio=new IntersectionObserver(function(entries){
+        entries.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');rio.unobserve(en.target);}});
+      },{rootMargin:'0px 0px -8% 0px'});
+      document.querySelectorAll('.rev').forEach(function(el){rio.observe(el);});
+    }
+  }else{
+    document.querySelectorAll('.rev').forEach(function(el){el.classList.add('in');});
+  }
+
+  /* floating pill */
+  var fab=document.getElementById('fab');
+  window.addEventListener('scroll',function(){
+    fab.classList.toggle('show',window.scrollY>700);
+  },{passive:true});
+  document.getElementById('fabBtn').addEventListener('click',function(){
+    document.getElementById('generator').scrollIntoView({behavior:'smooth'});
+    setTimeout(function(){affMain.focus();},450);
+  });
+
+  /* operator application mailto */
+  document.getElementById('opSend').addEventListener('click',function(){
+    var body='Volume operator application%0D%0A%0D%0A'+
+      'Digistore24 ID: '+encodeURIComponent(aff()==='AFFILIATE'?'':aff())+'%0D%0A'+
+      'Traffic sources: '+encodeURIComponent(document.getElementById('opTraffic').value)+'%0D%0A'+
+      'Monthly spend range: '+encodeURIComponent(document.getElementById('opSpend').value)+'%0D%0A'+
+      'Preferred funnel style: '+encodeURIComponent(document.getElementById('opFunnel').value)+'%0D%0A'+
+      'Optimization model: '+encodeURIComponent(document.getElementById('opModel').value)+'%0D%0A';
+    window.location.href='mailto:affiliates@pronutraquest.com?subject='+encodeURIComponent('Volume Operator Application — ProNutraQuest')+'&body='+body;
   });
 
   render();
