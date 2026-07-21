@@ -88,12 +88,19 @@
   .btn.primary{background:var(--acc);border-color:var(--acc);color:var(--acc-ink)}
   .btn.primary:hover{filter:brightness(1.07)}
   .btn.small{padding:7px 13px;font-size:14px;border-radius:8px}
-  .themebtn{background:none;border:none;padding:0;margin:0;cursor:pointer;color:var(--ink);display:inline-flex;align-items:center;justify-content:center;line-height:0}
+  .themebtn{background:none;border:none;padding:0;margin:0;cursor:pointer;color:var(--ink);display:inline-flex;align-items:center;justify-content:center;font-family:var(--sans);font-size:13.5px;font-weight:800;line-height:1}
   .themebtn:hover{color:var(--acc)}
   .themebtn:focus-visible{outline:2.5px solid var(--acc);outline-offset:3px;border-radius:6px}
+  .themebtn .tface{display:inline-flex;align-items:center;gap:7px;white-space:nowrap}
+  .themebtn .tface svg{display:block;flex:0 0 auto}
   .themebtn .tsun{display:none}
-  :root[data-theme="dark"] .themebtn .tsun{display:block}
+  :root[data-theme="dark"] .themebtn .tsun{display:inline-flex}
   :root[data-theme="dark"] .themebtn .tmoon{display:none}
+  /* the "Dark/Light Mode" label needs ~85px of topbar room; drop to icon-only in the width
+     bands where the header is already at its limit (else it wraps to a second row) */
+  @media(max-width:563px),(min-width:701px) and (max-width:749px),(min-width:901px) and (max-width:1189px){
+    .themebtn .tlab{display:none}
+  }
 
   /* offer rail */
   .rail{position:sticky;top:calc(var(--head-h,57px) - 1px);z-index:55;background:color-mix(in srgb,var(--bg) 96%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
@@ -355,9 +362,9 @@
         <span id="idToggleLabel">Your ID</span>
         <svg class="chev" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 9 7 7 7-7"/></svg>
       </button>
-      <button class="themebtn" id="themeBtn" type="button" aria-label="Toggle light/dark theme" title="Toggle light/dark theme">
-        <svg class="tmoon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7.1 7.1 0 0 0 9.8 9.8Z"/></svg>
-        <svg class="tsun" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4.6"/><path d="M12 2.2v2.4M12 19.4v2.4M2.2 12h2.4M19.4 12h2.4M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M4.9 19.1l1.7-1.7M17.4 6.6l1.7-1.7"/></svg>
+      <button class="themebtn" id="themeBtn" type="button" title="Switch between light and dark mode">
+        <span class="tface tmoon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7.1 7.1 0 0 0 9.8 9.8Z"/></svg><span class="tlab">Dark Mode</span></span>
+        <span class="tface tsun"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4.6"/><path d="M12 2.2v2.4M12 19.4v2.4M2.2 12h2.4M19.4 12h2.4M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M4.9 19.1l1.7-1.7M17.4 6.6l1.7-1.7"/></svg><span class="tlab">Light Mode</span></span>
       </button>
     </div>
     <div class="idwrap" id="idWrap">
