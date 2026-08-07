@@ -23,6 +23,7 @@
     --ink:#0A1220; --mut:#26394F; --dim:#4E6484;
     --acc:#0B8A64; --acc-ink:#FFFFFF; --acc-dim:rgba(11,138,100,.10);
     --gold:#8A6A20; --gold-dim:rgba(138,106,32,.12);
+    --assets:#F0A41A; --assets-ink:#231604;
     --danger:#B3402F;
     --money:#0E1626; --money-ink:#EDF1F8; --money-acc:#3FD9A4;
     --c-weight:#E8590C; --c-blood:#1971C2; --c-gut:#2F9E44; --c-nerve:#6741D9; --c-men:#C2255C; --c-bundle:#B08D2F;
@@ -37,6 +38,7 @@
     --ink:#EFF3FA; --mut:#B4C3DA; --dim:#8399BA;
     --acc:#3FD9A4; --acc-ink:#062117; --acc-dim:rgba(63,217,164,.13);
     --gold:#D9B36B; --gold-dim:rgba(217,179,107,.14);
+    --assets:#F7B733; --assets-ink:#231604;
     --danger:#E07A6B;
     --money:#0A1120; --money-ink:#EDF1F8; --money-acc:#3FD9A4;
     --c-weight:#FF8A3D; --c-blood:#4DA3E8; --c-gut:#51C462; --c-nerve:#9775FA; --c-men:#F06595; --c-bundle:#D9B36B;
@@ -201,6 +203,8 @@
   .resources{display:flex;gap:9px;flex-wrap:wrap;margin-top:18px}
   .resources a{font-size:14.5px;font-weight:700;border:1.5px solid var(--line2);border-radius:9px;padding:9px 14px;color:var(--mut);background:var(--card)}
   .resources a:hover{color:var(--acc);border-color:var(--acc);text-decoration:none}
+  .resources a.assets{background:var(--assets);border-color:var(--assets);color:var(--assets-ink);font-weight:800;box-shadow:0 5px 15px -7px color-mix(in srgb,var(--assets) 75%,transparent)}
+  .resources a.assets:hover{filter:brightness(1.06);color:var(--assets-ink);border-color:var(--assets);text-decoration:none}
   .cardfoot{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-top:18px;flex-wrap:wrap}
   .note{font-size:14px;color:var(--dim);font-weight:600}
 
@@ -390,7 +394,7 @@
 
 <header class="hero">
   <div class="wrap">
-    <div class="flagpill">● <b>9 offers live</b>&nbsp;· <svg class="flag sm"><use href="#f-de"/></svg> <svg class="flag sm"><use href="#f-at"/></svg> <svg class="flag sm"><use href="#f-ch"/></svg>&nbsp;German-speaking Europe · updated 15 July 2026</div>
+    <div class="flagpill">● <b>9 offers live</b>&nbsp;· <svg class="flag sm"><use href="#f-de"/></svg> <svg class="flag sm"><use href="#f-at"/></svg> <svg class="flag sm"><use href="#f-ch"/></svg>&nbsp;German-speaking Europe · updated 7 August 2026</div>
     <div class="eyebrow">ProNutraQuest × Digistore24 · Partner Program</div>
     <h1>Your Current Angles Are Saturated. The DACH Version of Them Hasn't Run Yet.</h1>
     <p class="lede"><strong>110 million affluent German speakers</strong> — one-third the US market — at <strong>40–60% cheaper CPMs</strong>, with a fraction of the competition. Nine doctor-fronted supplement funnels, <strong>60–75% RevShare</strong> through the whole funnel, top EPC <strong>~$6.10</strong>. Buyers who spend more, refund less, and have <strong>never seen your angle</strong>.</p>
@@ -487,8 +491,8 @@
           <div class="lrow"><div class="tag">PDP page</div><div class="url" data-link="https://myslimsana.com/slimsana-pdp-fe?aff=AFFILIATE&amp;cam=CAMPAIGNKEY"></div><button class="btn small copy" type="button">Copy</button></div>
         </div>
         <div class="resources">
-          <a href="offers/slimsana/" target="_blank" rel="noopener" style="border-color:var(--acc);color:var(--acc);font-weight:800">Full offer page →</a>
-          <a href="https://drive.google.com/drive/folders/1t81_w0ka4dA6v-fN5r-dVEMcyd68Yek9" target="_blank" rel="noopener">Materials: VSL script, angles, psychographics</a>
+          <a href="offers/slimsana/" target="_blank" rel="noopener" style="border-color:var(--acc);color:var(--acc);font-weight:800">Dedicated SlimSana Affiliate Page →</a>
+          <a class="assets" href="https://drive.google.com/drive/folders/1t81_w0ka4dA6v-fN5r-dVEMcyd68Yek9" target="_blank" rel="noopener">Affiliate Assets: Psychographics, Angles, VSL Script, Ads, Landing Pages, …</a>
         </div>
         <div class="cardfoot">
           <span class="note">RevShare starts at 60% across the whole funnel — rises to 75% with volume. CPA on request.</span>
@@ -532,8 +536,8 @@
           <div class="lrow"><div class="tag">PDP page</div><div class="url" data-link="https://myketosana.com/ketosana-pdp-fe?aff=AFFILIATE&amp;cam=CAMPAIGNKEY"></div><button class="btn small copy" type="button">Copy</button></div>
         </div>
         <div class="resources">
-          <a href="offers/ketosana/" target="_blank" rel="noopener" style="border-color:var(--acc);color:var(--acc);font-weight:800">Full offer page →</a>
-          <a href="https://drive.google.com/drive/folders/1BuaCKRyYBrygAvYtXS9f-TSkbiOaB5Rm" target="_blank" rel="noopener">Materials: VSL script, angles, psychographics</a>
+          <a href="offers/ketosana/" target="_blank" rel="noopener" style="border-color:var(--acc);color:var(--acc);font-weight:800">Dedicated KetoSana Affiliate Page →</a>
+          <a class="assets" href="https://drive.google.com/drive/folders/1BuaCKRyYBrygAvYtXS9f-TSkbiOaB5Rm" target="_blank" rel="noopener">Affiliate Assets: Psychographics, Angles, VSL Script, Ads, Landing Pages, …</a>
         </div>
         <div class="cardfoot">
           <span class="note">*60% through the entire funnel except the thank-you page (0% there).</span>
@@ -577,8 +581,8 @@
           <div class="lrow"><div class="tag">PDP page</div><div class="url" data-link="https://metabosana.com/metabosana-pdp-fe?aff=AFFILIATE&amp;cam=CAMPAIGNKEY"></div><button class="btn small copy" type="button">Copy</button></div>
         </div>
         <div class="resources">
-          <a href="offers/metabosana/" target="_blank" rel="noopener" style="border-color:var(--acc);color:var(--acc);font-weight:800">Full offer page →</a>
-          <a href="https://drive.google.com/drive/folders/12x8xEba9e37lQULX6rCb2VC1MpHODGnI" target="_blank" rel="noopener">Materials: VSL script, angles, psychographics</a>
+          <a href="offers/metabosana/" target="_blank" rel="noopener" style="border-color:var(--acc);color:var(--acc);font-weight:800">Dedicated MetaboSana Affiliate Page →</a>
+          <a class="assets" href="https://drive.google.com/drive/folders/12x8xEba9e37lQULX6rCb2VC1MpHODGnI" target="_blank" rel="noopener">Affiliate Assets: Psychographics, Angles, VSL Script, Ads, Landing Pages, …</a>
         </div>
         <div class="cardfoot">
           <span class="note">Ask support for current EPC before scaling — numbers move weekly on new VSLs.</span>
@@ -594,10 +598,10 @@
         <div class="hgroup">
           <div class="eyebrow2"><b>CleanseSana</b> · Detox · Gut Health · German-language funnel · DACH + EU</div>
           <h3>The 4-Mechanism Gut Reboot That Hit Digistore24's Top Offers in 4 Weeks</h3>
-          <p class="subhead">~$2.60 EPC and a top-offer listing in under a month — a fresh "cellular sludge" angle hitting digestion, immunity and fat loss at once.</p>
+          <p class="subhead">~$2.60 EPC, a top-offer listing in under a month — and the brand-new VSL is live now, putting a fresh "cellular sludge" angle on digestion, immunity and fat loss.</p>
         </div>
         <img class="bottle" src="img/cleansesana.png" alt="CleanseSana bottle" loading="lazy" onerror="this.style.display='none'">
-        <span class="badge">Top-Offers List in 4 Weeks</span>
+        <span class="badge green">⚡ New VSL · Just Launched</span>
       </header>
       <div class="kpis">
         <div class="kpi"><b>$2.60</b><span>EPC (≈ €2.20)</span></div>
@@ -607,8 +611,9 @@
         <div class="kpi"><b>30+</b><span>Women &amp; Men</span></div>
       </div>
       <div class="body">
-        <p class="pitch">The gut <strong>"Reboot"</strong>: a doctor-formulated system targeting <strong>"Toxic Backup Syndrome"</strong> — the cellular sludge blocking digestion, immunity and fat loss. Hit the Digistore24 top-offers list within four weeks of launch. VSL currently in production; the PDP funnel is converting now.</p>
+        <p class="pitch">The gut <strong>"Reboot"</strong>: a doctor-formulated system targeting <strong>"Toxic Backup Syndrome"</strong> — the cellular sludge blocking digestion, immunity and fat loss. Hit the Digistore24 top-offers list within four weeks of launch — and the brand-new VSL is live now, with the proven PDP funnel converting alongside it. First-mover window is open.</p>
         <ul class="hooks">
+          <li><b>New VSL</b> just launched — zero ad fatigue</li>
           <li>Top-offers list in <b>4 weeks</b></li>
           <li>4-mechanism protocol, not a detox tea</li>
           <li>Stacks with SlimSana / GlucoSana upsells</li>
@@ -618,13 +623,15 @@
           <div><span>Segment</span><b>Men &amp; women 30+, digestion &amp; detox pain</b></div>
         </div>
         <div class="linkrows">
+          <div class="lrow"><div class="tag">VSL page</div><div class="url" data-link="https://cleansesana.com/cleansesana-vsl-fe?aff=AFFILIATE&amp;cam=CAMPAIGNKEY"></div><button class="btn small copy" type="button">Copy</button></div>
           <div class="lrow"><div class="tag">PDP page</div><div class="url" data-link="https://cleansesana.com/cleansesana-pdp-fe?aff=AFFILIATE&amp;cam=CAMPAIGNKEY"></div><button class="btn small copy" type="button">Copy</button></div>
         </div>
         <div class="resources">
-          <a href="offers/cleansesana/" target="_blank" rel="noopener" style="border-color:var(--acc);color:var(--acc);font-weight:800">Full offer page →</a>
+          <a href="offers/cleansesana/" target="_blank" rel="noopener" style="border-color:var(--acc);color:var(--acc);font-weight:800">Dedicated CleanseSana Affiliate Page →</a>
+          <a class="assets" href="https://drive.google.com/drive/folders/1SWzh7WvOJAuV8qDu5jkjqfkRojlVNX1W" target="_blank" rel="noopener">Affiliate Assets: Psychographics, Angles, VSL Script, Ads, Landing Pages, …</a>
         </div>
         <div class="cardfoot">
-          <span class="note">VSL in production — get positioned now, scale when it drops. Materials on request.</span>
+          <span class="note">VSL just launched — ask support for current stats before scaling.</span>
           <button class="btn small copyall" type="button">Copy this offer's links</button>
         </div>
       </div>
@@ -665,7 +672,8 @@
           <div class="lrow"><div class="tag">PDP page</div><div class="url" data-link="https://myglucosana.com/glucosana-pdp-fe?aff=AFFILIATE&amp;cam=CAMPAIGNKEY"></div><button class="btn small copy" type="button">Copy</button></div>
         </div>
         <div class="resources">
-          <a href="offers/glucosana/" target="_blank" rel="noopener" style="border-color:var(--acc);color:var(--acc);font-weight:800">Full offer page →</a>
+          <a href="offers/glucosana/" target="_blank" rel="noopener" style="border-color:var(--acc);color:var(--acc);font-weight:800">Dedicated GlucoSana Affiliate Page →</a>
+          <a class="assets" href="https://drive.google.com/drive/folders/12h0kSFHBlDmbaCbMqHh5vPesH9MAtVAW" target="_blank" rel="noopener">Affiliate Assets: Psychographics, Angles, VSL Script, Ads, Landing Pages, …</a>
         </div>
         <div class="cardfoot">
           <span class="note">Blood-sugar demand in DACH is rising with an aging population — evergreen category.</span>
@@ -709,8 +717,8 @@
           <div class="lrow"><div class="tag">PDP page</div><div class="url" data-link="https://nervesana.com/nervesana-pdp-fe?aff=AFFILIATE&amp;cam=CAMPAIGNKEY"></div><button class="btn small copy" type="button">Copy</button></div>
         </div>
         <div class="resources">
-          <a href="offers/nervesana/" target="_blank" rel="noopener" style="border-color:var(--acc);color:var(--acc);font-weight:800">Full offer page →</a>
-          <a href="https://drive.google.com/drive/folders/1D1tEBOm49z5KKQXMvGVKLXuSg2zfLNb5" target="_blank" rel="noopener">Materials: VSL script, angles, psychographics</a>
+          <a href="offers/nervesana/" target="_blank" rel="noopener" style="border-color:var(--acc);color:var(--acc);font-weight:800">Dedicated NerveSana Affiliate Page →</a>
+          <a class="assets" href="https://drive.google.com/drive/folders/1D1tEBOm49z5KKQXMvGVKLXuSg2zfLNb5" target="_blank" rel="noopener">Affiliate Assets: Psychographics, Angles, VSL Script, Ads, Landing Pages, …</a>
         </div>
         <div class="cardfoot">
           <span class="note">Premium pricing holds because the pain is real and untreated — low refunds.</span>
@@ -754,7 +762,7 @@
           <div class="lrow"><div class="tag">PDP page</div><div class="url" data-link="https://myvigorsana.com/vigorsana-pdp-fe?aff=AFFILIATE&amp;cam=CAMPAIGNKEY"></div><button class="btn small copy" type="button">Copy</button></div>
         </div>
         <div class="resources">
-          <a href="offers/vigorsana/" target="_blank" rel="noopener" style="border-color:var(--acc);color:var(--acc);font-weight:800">Full offer page →</a>
+          <a href="offers/vigorsana/" target="_blank" rel="noopener" style="border-color:var(--acc);color:var(--acc);font-weight:800">Dedicated VigorSana Affiliate Page →</a>
         </div>
         <div class="cardfoot">
           <span class="note">VSL newly live — ask for current stats before scaling. Materials on request.</span>
@@ -797,7 +805,8 @@
           <div class="lrow"><div class="tag">PDP page</div><div class="url" data-link="https://pronutraquest.com/8-products-pdp?aff=AFFILIATE&amp;cam=CAMPAIGNKEY"></div><button class="btn small copy" type="button">Copy</button></div>
         </div>
         <div class="resources">
-          <a href="offers/vitasana-collection/" target="_blank" rel="noopener" style="border-color:var(--acc);color:var(--acc);font-weight:800">Full offer page →</a>
+          <a href="offers/vitasana-collection/" target="_blank" rel="noopener" style="border-color:var(--acc);color:var(--acc);font-weight:800">Dedicated VitaSana Collection Affiliate Page →</a>
+          <a class="assets" href="https://drive.google.com/drive/folders/10zABAswTGyC6i-gxzyqs_TufieAlUDco" target="_blank" rel="noopener">Affiliate Assets: Psychographics, Angles, VSL Script, Ads, Landing Pages, …</a>
         </div>
         <div class="cardfoot">
           <span class="note">VSL in production. Strongest play for email lists: every send can hit a different pain point.</span>
@@ -844,9 +853,9 @@
           <div class="lrow"><div class="tag">Shop portal</div><div class="url" data-link="https://pronutraquest.com/home?aff=AFFILIATE&amp;cam=CAMPAIGNKEY"></div><button class="btn small copy" type="button">Copy</button></div>
         </div>
         <div class="resources">
-          <a href="offers/glucotrust-german/" target="_blank" rel="noopener" style="border-color:var(--acc);color:var(--acc);font-weight:800">Full offer page →</a>
+          <a href="offers/glucotrust-german/" target="_blank" rel="noopener" style="border-color:var(--acc);color:var(--acc);font-weight:800">Dedicated GlucoTrust German Affiliate Page →</a>
           <a href="https://pronutraquest.com/affiliates-ds24-irl" target="_blank" rel="noopener">Email swipes — continually updated</a>
-          <a href="https://drive.google.com/drive/folders/1GMEaoI6qlP6RWRkgIXc_z_IFSZJEu9KH" target="_blank" rel="noopener">Materials: angles &amp; psychographics</a>
+          <a class="assets" href="https://drive.google.com/drive/folders/1GMEaoI6qlP6RWRkgIXc_z_IFSZJEu9KH" target="_blank" rel="noopener">Affiliate Assets: Angles &amp; Psychographics</a>
         </div>
         <div class="cardfoot">
           <span class="note">eCom page runs without upsells — use it for compliance-sensitive channels.</span>
